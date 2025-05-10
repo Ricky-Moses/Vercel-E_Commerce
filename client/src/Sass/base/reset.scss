@@ -1,0 +1,21 @@
+@use './variable.scss' as *;
+@use 'sass:map';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: map.get($font, _inter);
+}
+html, body{
+    background: #fff;
+    color: #000;
+    overflow-x: hidden;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}

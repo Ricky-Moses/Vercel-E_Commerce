@@ -1,0 +1,177 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+// Desktop Header
+.desktop-header {
+  // Top
+  & .top {
+    background: url("/banner.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100vw;
+    width: 100vw;
+    height: 38px;
+    font-weight: 600;
+    & .advertise {
+      overflow-y: hidden;
+      &:hover {
+        color: map.get($color, summer_blue);
+      }
+      & h1 {
+        animation: advertise 2s ease-in-out infinite;
+        transform: translateY(0px);
+        outline: none;
+        border: none;
+      }
+    }
+    & .social-link {
+      & ul {
+        & li {
+          padding: 0 20px;
+          color: map.get($color, _black);
+          & svg {
+            font-size: 1.5em;
+          }
+          &:hover {
+            color: map.get($color, summer_blue);
+          }
+        }
+      }
+    }
+  }
+  // Menu
+  & .menu {
+    max-width: 100vw;
+    & .navbar {
+      width: 100vw;
+      // Nav-menu
+      & .col1 {
+        & div:nth-of-type(2) {
+          font-weight: 600;
+          & a {
+            &:hover {
+              color: map.get($color, summer);
+            }
+          }
+        }
+      }
+      // Search bar
+      & .col2 {
+        & .btn_div {
+          button {
+            border: none;
+            background-color: map.get($color, summer) !important;
+            width: 70px;
+          }
+        }
+      }
+    }
+  }
+  // Sub menu
+  & .sub-menu {
+    max-width: 100vw;
+    & .menu-link {
+      & div {
+        &:hover {
+          font-size: 14px;
+          color: map.get($color, summer) !important;
+          border-bottom: solid;
+          padding-bottom: 5px;
+        }
+      }
+    }
+    & .logo-link {
+      & h1 {
+        color: map.get($color, summer);
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// Mobile Header
+.mobile-header {
+  // Navbar
+  & .nav-bar {
+    & .icon {
+      @include clamp(font-size, 1rem, 3vw, 1.5rem);
+    }
+    & .col1 {
+      & div:nth-of-type(2) {
+        @include clamp(width, 4rem, 10vw, 6rem);
+      }
+    }
+    & .col2 {
+      & div:nth-of-type(1) {
+        & .icon {
+          color: map.get($color, summer);
+        }
+      }
+    }
+  }
+  // Searchbar
+  & .search-bar {
+    & label {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      & .icon {
+        color: map.get($color, summer);
+      }
+    }
+  }
+  // Sidebar
+  & .side-bar {
+    @include position(fixed, 0, 0, null, null, 20);
+    & .advertise {
+      & .skeleton {
+        background-image: linear-gradient(
+          105deg,
+          #0000 0% 40%,
+          oklch(0.87 0 0) 50%,
+          #0000 60% 100%
+        );
+      }
+    }
+    & .cate-brand {
+      & h1 {
+        @include clamp(font-size, 0.8rem, 3vw, 2rem);
+        &.active {
+          transition: all 0.3s ease;
+          color: map.get($color, summer);
+          border-bottom: 2px solid map.get($color, summer);
+        }
+      }
+    }
+    & .list {
+      & .categories {
+        & .col1 {
+          & h1 {
+            @include clamp(font-size, 0.8rem, 2.5vw, 1.8rem);
+          }
+        }
+        & .col2 {
+          & .skeleton {
+            background-image: linear-gradient(
+              105deg,
+              #0000 0% 40%,
+              oklch(0.87 0 0) 50%,
+              #0000 60% 100%
+            );
+          }
+        }
+      }
+    }
+  }
+}
+
+// Animations for Top.jsx(Desktop Header)
+@keyframes advertise {
+  0% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(50px);
+  }
+}

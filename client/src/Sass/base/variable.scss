@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Coral+Pixels&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Kaushan+Script&family=Merienda:wght@300..900&family=Playwrite+RO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+// Color
+$color: (
+    summer: #6fe6fc,
+    summer_blue: #0000ff,
+    _white: #ffffff,
+    _black: #03021a,
+    _gray: #03021a99
+);
+
+// Font
+$font: (
+    _poppins: "Poppins",
+    _kaushan: "Kaushan Script",
+    _winky: "Winky Sans",
+    _big-shoulder: "Big Shoulders Inline" ,
+    _berkshire: "Berkshire Swash",
+    _italianno: "Italianno",
+    _merienda: "Merienda",
+    _playwrite: "Playwrite RO",
+    _coral: "Coral Pixels",
+    _courier: "Courier Prime",
+    _inter: "Inter",
+)
