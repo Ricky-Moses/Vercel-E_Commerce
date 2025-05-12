@@ -13,9 +13,12 @@ const app = express()
 connectDB()
 
 // Middleware
-app.use(cors())
+app.use(cors({
+    origin: ['http://localhost:5173/', 'https://vercel-e-commerce-rouge.vercel.app/']
+}))
 app.use(express.json())
 app.use(cookieParser())
+app.set('trust proxy', 1)
 
 // Router
 
