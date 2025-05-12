@@ -5,8 +5,17 @@ import { GiBeachBag } from "react-icons/gi";
 import { IoIosPersonAdd } from "react-icons/io";
 // Logo
 import Logo from '../../asset/header_img/logo.png'
+// Router
+import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ toggleSidebar }) => {
+
+    const navigate = useNavigate()
+
+    const handleRegister = () => {
+        navigate('/register')
+    }
+
     return (
         <div className='nav-bar navbar justify-between !px-3'>
             <div className="col1 flex items-center gap-3">
@@ -25,7 +34,7 @@ const Navbar = ({ toggleSidebar }) => {
                     <GiBeachBag className='icon' />
                 </div>
                 <div className="">
-                    <IoIosPersonAdd className='icon' />
+                    <IoIosPersonAdd className='icon' onClick={handleRegister} />
                 </div>
             </div>
         </div>
