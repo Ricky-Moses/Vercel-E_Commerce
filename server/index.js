@@ -6,7 +6,6 @@ import connectDB from './config/db.js'
 // Authentication routes
 import authRoutes from './routes/authRoutes.js'
 
-const allowedOrigin = ['http://localhost:5173', 'https://vercel-e-commerce-rouge.vercel.app'];
 
 // Express initialization
 const app = express()
@@ -14,20 +13,9 @@ const app = express()
 // Mongo connection 
 connectDB()
 
-// Middleware
-app.use(cors({
-    origin: (origin, callback) => {
-        if(!origin || allowedOrigin.includes(origin)){
-            callback(null, true)
-        } else{
-            callback(new Error('Not allowed by CORS'))
-        }
-    },
-    credentials: true
-}))
+const allowedOrigins = ['http://localhost:5173', 'https://vercel-e-commerce-rouge.vercel.app'];
 
-// Preflight OPTIONS support
-app.options('*', cors({
+const corsOptions = {
     origin: (origin, callback) => {
         if (!origin || allowedOrigins.includes(origin)) {
             callback(null, true)
@@ -36,7 +24,11 @@ app.options('*', cors({
         }
     },
     credentials: true
-}))
+};
+
+app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
+
 app.use(express.json())
 app.use(cookieParser())
 app.set('trust proxy', 1)
