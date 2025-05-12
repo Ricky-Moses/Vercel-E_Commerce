@@ -1,0 +1,17 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+.register {
+  & .register-form {
+    & form {
+      & h1 {
+        @include clamp(font-size, 1rem, 3vw, 2rem);
+      }
+      & .flex{
+        & input{
+            padding-left: 5px;
+        }
+      }
+    }
+  }
+}

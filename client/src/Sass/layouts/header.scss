@@ -142,22 +142,24 @@
       }
     }
     & .list {
+      & .col1 {
+        & h1 {
+          @include clamp(font-size, 0.8rem, 2.5vw, 1.8rem);
+        }
+      }
+      & .col2 {
+        & .skeleton {
+          background-image: linear-gradient(
+            105deg,
+            #0000 0% 40%,
+            oklch(0.87 0 0) 50%,
+            #0000 60% 100%
+          );
+        }
+      }
       & .categories {
-        & .col1 {
-          & h1 {
-            @include clamp(font-size, 0.8rem, 2.5vw, 1.8rem);
-          }
-        }
-        & .col2 {
-          & .skeleton {
-            background-image: linear-gradient(
-              105deg,
-              #0000 0% 40%,
-              oklch(0.87 0 0) 50%,
-              #0000 60% 100%
-            );
-          }
-        }
+      }
+      & .brand {
       }
     }
   }
