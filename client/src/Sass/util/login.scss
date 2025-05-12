@@ -3,6 +3,8 @@
 
 .login {
   & .loginForm {
-    
+    & h1 {
+      @include clamp(font-size, 1rem, 3vw, 2rem);
+    }
   }
 }
