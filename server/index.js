@@ -25,12 +25,28 @@ app.use(cors({
     },
     credentials: true
 }))
+
+// Preflight OPTIONS support
+app.options('*', cors({
+    origin: (origin, callback) => {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    },
+    credentials: true
+}))
 app.use(express.json())
 app.use(cookieParser())
 app.set('trust proxy', 1)
 
-// Router
+app.use((req, res, next) => {
+    console.log('Request Origin:', req.headers.origin)
+    next()
+})
 
+// Router
 app.use('/api/auth', authRoutes)
 
 // ENV
