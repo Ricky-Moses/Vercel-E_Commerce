@@ -1,4 +1,3 @@
-import React from 'react'
 // Icon
 import { CiSearch } from 'react-icons/ci'
 

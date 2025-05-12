@@ -1,4 +1,3 @@
-import React from 'react'
 // Icons
 import { BsFillPhoneVibrateFill } from "react-icons/bs";
 import { FaGifts, FaMapLocationDot } from "react-icons/fa6";

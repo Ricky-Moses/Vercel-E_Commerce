@@ -1,4 +1,3 @@
-import React from 'react'
 // Icon
 import { HiOutlineBars4 } from "react-icons/hi2";
 import { TfiGift } from "react-icons/tfi";

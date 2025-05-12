@@ -1,4 +1,3 @@
-import React from 'react'
 // Image Register
 import register from '../asset/auth_img/register.png'
 import RegisterForm from './Auth/RegisterForm'

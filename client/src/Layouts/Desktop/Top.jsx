@@ -1,4 +1,3 @@
-import React from 'react'
 
 import Advertise from './Top/Advertise'
 import Links from './Top/Links'

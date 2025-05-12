@@ -12,6 +12,12 @@
             padding-left: 5px;
         }
       }
+      & .toLogin{
+        @include clamp(font-size, .5rem, 3vw, 1rem);
+        &:hover{
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

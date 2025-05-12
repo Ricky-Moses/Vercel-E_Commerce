@@ -1,4 +1,3 @@
-import React from 'react'
 // Icons
 import { CiSearch } from "react-icons/ci";
 import { MdShoppingCartCheckout } from "react-icons/md";

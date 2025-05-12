@@ -1,6 +1,3 @@
-import React from 'react'
-// Logo
-import Logo from '../../asset/header_img/offer_logo.png'
 
 const menus = [
   { label: 'Makeup', link: '' },

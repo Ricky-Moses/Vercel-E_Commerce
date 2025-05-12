@@ -1,4 +1,3 @@
-import React from 'react'
 // Logo
 import Logo from '../../../asset/header_img/logo.png'
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 // Redux
 import { useDispatch, useSelector } from 'react-redux'
 // Router
@@ -12,7 +12,7 @@ const RegisterForm = () => {
     const { isAuthenticated, loading, error } = useSelector(state => state.auth)
 
     const [formData, setFormData] = useState({
-        name: '',
+        username: '',
         email: '',
         password: ''
     })
@@ -33,23 +33,23 @@ const RegisterForm = () => {
         }
     }, [isAuthenticated, navigate])
 
-    const { name, email, password } = formData
+    const { username, email, password } = formData
 
     return (
         <div className="register-form flex items-center justify-center bg-blue-200 rounded-2xl !p-1">
             <form onSubmit={handleSubmit} className='w-full md:w-5/6 lg:w-4/6 h-full lg:h-5/6 flex flex-col items-center justify-center bg-white rounded-2xl'>
-                <h1 className="font-bold">Register</h1>
+                <h1 className="font-bold">Register/Sign Up</h1>
                 <div className="w-5/6 flex flex-col gap-5">
                     <div className="flex flex-col gap-2  w-full">
                         <label htmlFor="">Name</label>
                         <div className="">
                             <input
-                                className="input validator w-full bg-white border-black"
+                                className="input validator w-full bg-white border-black !mb-1"
                                 type="text"
                                 required
-                                placeholder="Enter your name"
-                                name="name"
-                                value={name}
+                                placeholder="User name"
+                                name="username"
+                                value={username}
                                 onChange={handleChange}
                             />
                             <div className="validator-hint">Please! Enter your name 👤</div>
@@ -59,10 +59,10 @@ const RegisterForm = () => {
                         <label htmlFor="">Email</label>
                         <div className="">
                             <input
-                                className="input validator w-full bg-white border-black"
+                                className="input validator w-full bg-white border-black !mb-1"
                                 type="email"
                                 required
-                                placeholder="Enter your email"
+                                placeholder="user@example.com"
                                 name="email"
                                 value={email}
                                 onChange={handleChange}
@@ -74,10 +74,10 @@ const RegisterForm = () => {
                         <label htmlFor="">Password</label>
                         <div className="">
                             <input
-                                className="input validator w-full bg-white border-black"
+                                className="input validator w-full bg-white border-black !mb-1"
                                 type="password"
                                 required
-                                placeholder="Enter your password"
+                                placeholder="***********"
                                 name="password"
                                 value={password}
                                 onChange={handleChange}
@@ -85,7 +85,8 @@ const RegisterForm = () => {
                             <div className="validator-hint">Please! Enter your password 🔑</div>
                         </div>
                     </div>
-                    <p className="">Already had account ?</p>
+                    <p className="">Already a member ? <span className="toLogin font-bold cursor-pointer" onClick={() => { navigate('/login') }}>Log in</span></p>
+
                     {error ? (
                         <>
                             <button disabled="disabled">{error}</button>
