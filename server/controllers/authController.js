@@ -38,8 +38,12 @@ export const login = async (req, res) => {
         if(!isMatch) {return res.status(400).json({msg: 'Invalid credentials'})}
 
         const token = createToken(user._id)
-        res.cookie('token', token, {httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000})
-        res.status(201).json({msg: 'Login successfully!!!!', userId: user._id})
+        res.cookie('token', token, {
+            httpOnly: true,
+            secure: true,
+            samSite: 'None',
+            maxAge: 7 * 24 * 60 * 60 * 1000})
+        res.status(201).json({msg: 'Login successfully!!!!', user: { id: user._id, email: user.email } })
     }
     catch(err){
         res.status(500).json({error: err.message})

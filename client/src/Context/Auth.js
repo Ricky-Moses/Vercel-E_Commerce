@@ -9,17 +9,17 @@ axios.defaults.withCredentials = true;
 
 // Register
 export const RegisterUser = createAsyncThunk('auth/registerUser', async(userData) => {
-    const res =  await axios.post(`${API}/register`, userData)
+    const res = await axios.post(`${API}/register`, userData)
     return res.data
 })
 // Login
 export const LoginUser = createAsyncThunk('auth/loginUser', async(userData) => {
-    const res =  await axios.post(`${API}/login`, userData)
+    const res = await axios.post(`${API}/login`, userData)
     return res.data
 })
 // Logout
 export const LogoutUser = createAsyncThunk('auth/logoutUser', async() => {
-    const res =  await axios.get(`${API}/logout`)
+    const res = await axios.get(`${API}/logout`)
     return res.data
 })
 
@@ -41,7 +41,7 @@ const authSlice = createSlice({
                 state.error = null
             })
             .addCase(RegisterUser.fulfilled, (state, action) => {
-                state.user = action.payload.user
+                state.user = action.payload.user.user
                 state.isAuthenticated = true
                 state.loading = false
             })
@@ -55,7 +55,7 @@ const authSlice = createSlice({
                 state.error = null
             })
             .addCase(LoginUser.fulfilled, (state, action) => {
-                state.user = action.payload.user
+                state.user = action.payload.user.user
                 state.isAuthenticated = true
                 state.loading = false
             })
