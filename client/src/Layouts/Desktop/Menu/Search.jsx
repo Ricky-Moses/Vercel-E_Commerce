@@ -5,6 +5,8 @@ import { MdShoppingCartCheckout } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
 // Redux
 import { useSelector } from 'react-redux'
+// Icon
+import { FaUserCheck } from "react-icons/fa6";
 
 
 const Search = () => {
@@ -25,8 +27,9 @@ const Search = () => {
       </label>
       <div className="btn_div">
         {isAuthenticated ? (
-          <div className="">
-            {/* {user?.username || 'Users'} */}
+          <div className="flex items-center gap-2">
+            <FaUserCheck />
+            <span className="">{user?.username || 'Users'}</span>
           </div>
         ) : (
           <button className='btn' onClick={handleRegister}>Sign</button>
