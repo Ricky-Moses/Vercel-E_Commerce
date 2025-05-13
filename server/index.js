@@ -14,8 +14,7 @@ const app = express()
 connectDB()
 
 const allowedOrigins = [
-  'http://localhost:5173',
-  'https://vercel-e-commerce-rouge.vercel.app'
+  'http://localhost:5173'
 ];
 
 const corsOptions = {
@@ -37,11 +36,6 @@ app.options('*', cors(corsOptions));
 app.use(express.json())
 app.use(cookieParser())
 app.set('trust proxy', 1)
-
-app.use((req, res, next) => {
-    console.log('Request Origin:', req.headers.origin)
-    next()
-})
 
 // Router
 app.use('/api/auth', authRoutes)

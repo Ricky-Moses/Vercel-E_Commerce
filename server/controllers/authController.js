@@ -17,10 +17,9 @@ export const register = async (req, res) => {
         const hashPassword = await bcrypt.hash(password, 10)
         const user = new User({ username, email, password: hashPassword })
 
-        /* Immediate login after register. That's why this line removed
         const token = createToken(user._id)
         res.cookie('token', token, {httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000})
-        */
+
         await user.save()
         res.status(201).json({msg: 'User registered successfully!!!', user: { id: user._id, username: user.username, email: user.email }})
     }
@@ -51,24 +50,6 @@ export const login = async (req, res) => {
         res.status(500).json({error: err.message})
     }
 }
-
-// Loaduser
-export const loaduser = async (req, res) => {
-    try {
-        const token = req.cookies.token;
-        console.log("Token in cookies:", token); // Log token to debug
-        if (!token) return res.status(401).json({ msg: 'Not authenticated' });
-
-        const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        const user = await User.findById(decoded.id).select('-password');
-
-        if (!user) return res.status(404).json({ msg: 'User not found' });
-
-        res.status(200).json({ mdg: 'User logged!!!!!', user: {username: user.name, email: user.email} });
-    } catch (err) {
-        res.status(500).json({ error: err.message });
-    }
-};
 
 // Logout
 export const logout = (req, res) => {
