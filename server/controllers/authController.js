@@ -53,23 +53,22 @@ export const login = async (req, res) => {
 }
 
 // Loaduser
-export const loadUser = async (req, res) => {
-    try{
+export const loaduser = async (req, res) => {
+    try {
         const token = req.cookies.token;
-        if(!token) return res.status(401).json({msg: 'Not authenticated'})
+        console.log("Token in cookies:", token); // Log token to debug
+        if (!token) return res.status(401).json({ msg: 'Not authenticated' });
 
-        const decoded = jwt.verify(token, process.env.JWT_SECRET)
-        const user = await User.findById(decoded.id).select('-password')
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        const user = await User.findById(decoded.id).select('-password');
 
-        if(!user) return res.status(404).json({msg: 'User not founded'})
+        if (!user) return res.status(404).json({ msg: 'User not found' });
 
-        res.status(200).json({user})
+        res.status(200).json({ mdg: 'User logged!!!!!', user: {username: user.name, email: user.email} });
+    } catch (err) {
+        res.status(500).json({ error: err.message });
     }
-    catch(err){
-        res.status(500).json({error: err.message})
-    }
-}
-
+};
 
 // Logout
 export const logout = (req, res) => {

@@ -1,40 +1,35 @@
-import React from 'react'
+import { useEffect } from 'react'
 // Router
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 // Layouts
-import RootLayout from './RootLayout'
+import Header from './Layouts/Header'
 // Utilities
 import Register from './Utilities/Register'
 import Login from './Utilities/Login'
-import PublicLayout from './Layouts/PublicLayout'
+// Redux
+import { useDispatch } from 'react-redux'
+// Slice
+import { LoadUser } from './Context/Auth'
 // Pages
 
 const App = () => {
 
+      const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(LoadUser())
+    }, [dispatch])
+
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <RootLayout />,
+      element: <Header />,
       children: [
 
       ]
     },
-    {
-      path: '/register',
-      element: (
-        <PublicLayout>
-          <Register />
-        </PublicLayout>
-      )
-    },
-    {
-      path: '/login',
-      element: (
-        <PublicLayout>
-          <Login />
-        </PublicLayout>
-      )
-    },
+    {path: '/register', element: <Register />},
+    {path: '/login', element: <Login />},
   ])
 
   return <RouterProvider router={router} />
