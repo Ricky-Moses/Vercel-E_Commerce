@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 // Router
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 // Layouts
@@ -7,18 +6,11 @@ import Header from './Layouts/Header'
 import Register from './Utilities/Register'
 import Login from './Utilities/Login'
 // Redux
-import { useDispatch } from 'react-redux'
 // Slice
-import { LoadUser } from './Context/Auth'
 // Pages
 
 const App = () => {
 
-      const dispatch = useDispatch()
-
-    useEffect(() => {
-        dispatch(LoadUser())
-    }, [dispatch])
 
   const router = createBrowserRouter([
     {
