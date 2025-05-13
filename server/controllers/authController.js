@@ -17,8 +17,10 @@ export const register = async (req, res) => {
         const hashPassword = await bcrypt.hash(password, 10)
         const user = new User({ username, email, password: hashPassword })
 
+        /* Immediate login after register. That's why this line removed
         const token = createToken(user._id)
         res.cookie('token', token, {httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000})
+        */
         await user.save()
         res.status(201).json({msg: 'User registered successfully!!!', userId: user._id})
     }

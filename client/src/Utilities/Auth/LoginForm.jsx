@@ -95,7 +95,7 @@ const LoginForm = () => {
                                 </>
                             ) : (
                                 <>
-                                    <button className="btn w-4/6">Submit</button>
+                                    <button className="btn w-4/6">Login</button>
                                 </>
                             )}
                         </>
