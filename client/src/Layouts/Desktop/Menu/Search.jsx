@@ -9,8 +9,8 @@ import { useSelector } from 'react-redux'
 
 const Search = () => {
 
-  const { user, isAuthenticated } = useSelector(state => state.auth)
-  console.log('Username: ',user);
+  const { name, isAuthenticated } = useSelector(state => state.auth)
+  console.log('Username: ', name);
   const navigate = useNavigate()
 
   const handleRegister = () => {
@@ -26,7 +26,7 @@ const Search = () => {
       <div className="btn_div">
         {isAuthenticated ? (
           <div className="">
-            {user?.username || 'Users'}
+            {/* {user?.username || 'Users'} */}
           </div>
         ) : (
           <button className='btn' onClick={handleRegister}>Sign</button>

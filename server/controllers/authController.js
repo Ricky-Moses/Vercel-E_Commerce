@@ -18,10 +18,20 @@ export const register = async (req, res) => {
         const user = new User({ username, email, password: hashPassword })
 
         const token = createToken(user._id)
-        res.cookie('token', token, {httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000})
+        res.cookie('token', token, {
+            httpOnly: true, 
+            maxAge: 7 * 24 * 60 * 60 * 1000
+        })
 
         await user.save()
-        res.status(201).json({msg: 'User registered successfully!!!', user: { id: user._id, username: user.username, email: user.email }})
+        res.status(201).json({
+            msg: 'User registered successfully!!!', 
+            user: { 
+                id: user._id, 
+                username: user.username, 
+                email: user.email 
+            }
+        })
     }
     catch(err){
         res.status(500).json({error: err.message})
@@ -30,26 +40,35 @@ export const register = async (req, res) => {
 
 // Login
 export const login = async (req, res) => {
-    const { email, password } = req.body
-    try{
-        const user = await User.findOne({email})
-        if(!user) {return res.status(400).json({msg: 'User not founded!!'})}
-        
-        const isMatch = await bcrypt.compare(password, user.password)
-        if(!isMatch) {return res.status(400).json({msg: 'Invalid credentials'})}
+  const { email, password } = req.body
+  try {
+    const user = await User.findOne({ email })
+    if (!user) return res.status(400).json({ msg: 'User not found!' })
 
-        const token = createToken(user._id)
-        res.cookie('token', token, {
-            httpOnly: true,
-            secure: true,
-            sameSite: 'None',
-            maxAge: 7 * 24 * 60 * 60 * 1000})
-        res.status(201).json({msg: 'Login successfully!!!!', user: { id: user._id, username: user.username, email: user.email } })
-    }
-    catch(err){
-        res.status(500).json({error: err.message})
-    }
+    const isMatch = await bcrypt.compare(password, user.password)
+    if (!isMatch) return res.status(400).json({ msg: 'Invalid credentials' })
+
+    const token = createToken(user._id)
+    res.cookie('token', token, {
+      httpOnly: true,
+      secure: true,
+      sameSite: 'None',
+      maxAge: 7 * 24 * 60 * 60 * 1000
+    })
+
+    res.status(201).json({
+      msg: 'Login successfully!',
+      user: {
+        id: user._id,
+        username: user.username,
+        email: user.email
+      }
+    })
+  } catch (err) {
+    res.status(500).json({ error: err.message })
+  }
 }
+
 
 // Logout
 export const logout = (req, res) => {

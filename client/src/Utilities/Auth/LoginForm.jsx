@@ -20,6 +20,7 @@ const LoginForm = () => {
         email: '',
         password: ''
     })
+    const [isAuth, setIsAuth] = useState(false)
 
     const handleChange = (e) => {
         const { name, value } = e.target
@@ -29,11 +30,12 @@ const LoginForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         dispatch(LoginUser(formData))
+        isAuth ? navigate('/') : setIsAuth(false)
     }
 
     useEffect(() => {
         if (isAuthenticated) {
-            navigate('/')
+            setIsAuth(true)
         }
     }, [isAuthenticated, navigate])
 
