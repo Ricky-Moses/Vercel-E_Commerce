@@ -58,7 +58,12 @@
       // Search bar
       & .col2 {
         & .btn_div {
-          button {
+          & div{
+            & span{
+              @include clamp(font-size, 1rem, 3vw, 1.2rem)
+            }
+          }
+          & button {
             border: none;
             background-color: map.get($color, summer) !important;
             width: 70px;

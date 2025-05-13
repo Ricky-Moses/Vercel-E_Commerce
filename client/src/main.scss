@@ -1,6 +1,9 @@
 // Base
 @use './Sass/base/index.scss';
 
+// Error
+@use './Sass/error/error.scss';
+
 // Header
 @use './Sass/layouts/header.scss';
 

@@ -28,8 +28,8 @@ const Search = () => {
       <div className="btn_div">
         {isAuthenticated ? (
           <div className="flex items-center gap-2">
-            <FaUserCheck />
-            <span className="">{user?.username || 'Users'}</span>
+            <span className=""><FaUserCheck /></span>
+            <span className="font-bold">{user?.username || 'Users'}</span>
           </div>
         ) : (
           <button className='btn' onClick={handleRegister}>Sign</button>

@@ -1,0 +1,17 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+.error {
+  & div:nth-of-type(2) {
+    & h1 {
+      @include clamp(font-size, 1rem, 5vw, 3rem);
+      font-weight: 600;
+    }
+    & p:nth-of-type(1){
+        @include clamp(font-size, 1rem, 5vw, 2rem);
+    }
+    & p:nth-of-type(2){
+        @include clamp(font-size, 1rem, 5vw, 1.5rem);
+    }
+  }
+}
