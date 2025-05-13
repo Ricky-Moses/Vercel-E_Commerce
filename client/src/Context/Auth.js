@@ -30,17 +30,6 @@ export const LoginUser = createAsyncThunk('auth/loginUser', async(userData, thun
         return thunkAPI.rejectWithValue(err.response?.data?.message || err.message)
     }
 })
-// LoadUser
-export const LoadUser = createAsyncThunk('auth/loadUser', async(_, thunkAPI) => {
-    try{
-        const res = await axios.get(`${API}/me`)
-        return res.data
-    }
-    catch(err){
-        console.error('Load error:', err.response?.data || err.message)
-        return thunkAPI.rejectWithValue(err.response?.data?.message || err.message)
-    }
-})
 
 // Logout
 export const LogoutUser = createAsyncThunk('auth/logoutUser', async() => {
@@ -66,7 +55,7 @@ const authSlice = createSlice({
                 state.error = null
             })
             .addCase(RegisterUser.fulfilled, (state, action) => {
-                state.user = action.payload.user
+                state.user = action.payload
                 state.isAuthenticated = true
                 state.loading = false
             })
@@ -80,25 +69,11 @@ const authSlice = createSlice({
                 state.error = null
             })
             .addCase(LoginUser.fulfilled, (state, action) => {
-                state.user = action.payload.user
+                state.user = action.payload
                 state.isAuthenticated = true
                 state.loading = false
             })
             .addCase(LoginUser.rejected, (state, action) => {
-                state.loading = false
-                state.error = action.error.message
-            })
-            // LoadUser
-            .addCase(LoadUser.pending, state => {
-                state.loading = true
-            })
-            .addCase(LoadUser.fulfilled, (state, action) => {
-                state.user = action.payload.user
-                state.isAuthenticated = true
-                state.loading = false
-            })
-            .addCase(LoadUser.rejected, (state, action) => {
-                state.user = null
                 state.loading = false
                 state.error = action.error.message
             })

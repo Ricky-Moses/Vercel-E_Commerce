@@ -26,7 +26,7 @@ const Search = () => {
       <div className="btn_div">
         {isAuthenticated ? (
           <div className="">
-            {user?.username || 'User'}
+            {user?.username || 'Users'}
           </div>
         ) : (
           <button className='btn' onClick={handleRegister}>Sign</button>
