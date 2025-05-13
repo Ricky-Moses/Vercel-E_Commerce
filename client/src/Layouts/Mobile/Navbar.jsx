@@ -26,7 +26,7 @@ const Navbar = ({ toggleSidebar }) => {
                     <img className="w-full h-full" src={Logo} />
                 </div>
             </div>
-            <div className="col2 flex items-center gap-5">
+            <div className="col2 flex items-center gap-5 xs:gap-10">
                 <div className="">
                     <TfiGift className='icon' />
                 </div>

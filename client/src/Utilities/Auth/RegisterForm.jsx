@@ -89,7 +89,7 @@ const RegisterForm = () => {
 
                     {error ? (
                         <>
-                            <button disabled="disabled">{error}</button>
+                            <button disabled>{error}</button>
                         </>
                     ) : (
                         <>

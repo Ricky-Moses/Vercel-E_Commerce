@@ -3,10 +3,14 @@ import { CiSearch } from "react-icons/ci";
 import { MdShoppingCartCheckout } from "react-icons/md";
 // Router
 import { useNavigate } from 'react-router-dom';
+// Redux
+import { useSelector } from 'react-redux'
 
 
 const Search = () => {
 
+  const { user, isAuthenticated } = useSelector(state => state.auth)
+  console.log('Username: ',user);
   const navigate = useNavigate()
 
   const handleRegister = () => {
@@ -20,7 +24,13 @@ const Search = () => {
         <input type="search" className="grow" placeholder="Search" />
       </label>
       <div className="btn_div">
-        <button className='btn' onClick={handleRegister}>Sign</button>
+        {isAuthenticated ? (
+          <div className="">
+            {user?.username || 'User'}
+          </div>
+        ) : (
+          <button className='btn' onClick={handleRegister}>Sign</button>
+        )}
       </div>
       <div className="cart">
         <MdShoppingCartCheckout className='text-2xl' />

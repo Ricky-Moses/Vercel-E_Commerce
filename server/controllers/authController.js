@@ -43,12 +43,31 @@ export const login = async (req, res) => {
             secure: true,
             samSite: 'None',
             maxAge: 7 * 24 * 60 * 60 * 1000})
-        res.status(201).json({msg: 'Login successfully!!!!', user: { id: user._id, email: user.email } })
+        res.status(201).json({msg: 'Login successfully!!!!', user: { id: user._id, username: user.username, email: user.email } })
     }
     catch(err){
         res.status(500).json({error: err.message})
     }
 }
+
+// Loaduser
+export const loadUser = async (req, res) => {
+    try{
+        const token = req.cookies.token;
+        if(!token) return res.status(401).json({msg: 'Not authenticated'})
+
+        const decoded = jwt.verify(token, process.env.JWT_SECRET)
+        const user = await User.findById(decoded.id).select('-password')
+
+        if(!user) return res.status(404).json({msg: 'User not founded'})
+
+        res.status(200).json({user})
+    }
+    catch(err){
+        res.status(500).json({error: err.message})
+    }
+}
+
 
 // Logout
 export const logout = (req, res) => {
