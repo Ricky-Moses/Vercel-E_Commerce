@@ -22,7 +22,7 @@ export const register = async (req, res) => {
         res.cookie('token', token, {httpOnly: true, maxAge: 7 * 24 * 60 * 60 * 1000})
         */
         await user.save()
-        res.status(201).json({msg: 'User registered successfully!!!', userId: user._id})
+        res.status(201).json({msg: 'User registered successfully!!!', user: { id: user._id, username: user.username, email: user.email }})
     }
     catch(err){
         res.status(500).json({error: err.message})
@@ -43,7 +43,7 @@ export const login = async (req, res) => {
         res.cookie('token', token, {
             httpOnly: true,
             secure: true,
-            samSite: 'None',
+            sameSite: 'None',
             maxAge: 7 * 24 * 60 * 60 * 1000})
         res.status(201).json({msg: 'Login successfully!!!!', user: { id: user._id, username: user.username, email: user.email } })
     }

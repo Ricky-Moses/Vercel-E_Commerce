@@ -13,18 +13,23 @@ const app = express()
 // Mongo connection 
 connectDB()
 
-const allowedOrigins = ['http://localhost:5173', 'https://vercel-e-commerce-rouge.vercel.app'];
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://vercel-e-commerce-rouge.vercel.app'
+];
 
 const corsOptions = {
-    origin: (origin, callback) => {
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'))
-        }
-    },
-    credentials: true
+  origin: (origin, callback) => {
+    console.log('CORS check origin:', origin); // log it!
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`Not allowed by CORS: ${origin}`));
+    }
+  },
+  credentials: true
 };
+
 
 app.use(cors(corsOptions));
 app.options('*', cors(corsOptions));
