@@ -9,8 +9,8 @@ import { useSelector } from 'react-redux'
 
 const Search = () => {
 
-  const { name, isAuthenticated } = useSelector(state => state.auth)
-  console.log('Username: ', name);
+  const { user, isAuthenticated } = useSelector(state => state.auth)
+  console.log('Username: ', user?.username);
   const navigate = useNavigate()
 
   const handleRegister = () => {
