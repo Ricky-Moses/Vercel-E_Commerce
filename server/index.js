@@ -9,7 +9,7 @@ import authRoutes from './routes/authRoutes.js';
 // Validate environment variables
 const requiredEnvVars = ['PORT', 'JWT_SECRET', 'MONGODB_URL'];
 const missingEnvVars = requiredEnvVars.filter((envVar) => !process.env[envVar]);
-if (missingEnv.length) {
+if (missingEnvVars.length) {
   throw new Error(`Missing required environment variables: ${missingEnvVars.join(', ')}`);
 }
 
