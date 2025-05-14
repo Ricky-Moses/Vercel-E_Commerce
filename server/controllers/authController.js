@@ -71,20 +71,28 @@ export const login = async (req, res) => {
 
 // Current user
 export const currentUser = async (req, res) => {
-  try{
-    console.log('Cookies:', req.cookies)
-    const token = req.cookie.token
-    if(!token) return res.status(401).json({msg: 'Unauthorized'})
+  try {
+    console.log('Cookies:', req.cookies);
     
-    const decoded = jwt.verify(token, process.env.JWT_SECRET)
-    const user = await User.findById(decoded.id).select('-password')
-
-    if(!user) return res.status(401).json({msg: 'Not authorized'})
-    res.status(200).json({user})
+    const token = req.cookies?.token;
+    
+    if (!token) {
+      return res.status(401).json({ msg: 'Unauthorized - No token provided' });
+    }
+    
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    
+    const user = await User.findById(decoded.id).select('-password');
+    
+    if (!user) {
+      return res.status(404).json({ msg: 'User not found' });
+    }
+    
+    return res.status(200).json({ user });
   } catch (err) {
-    res.status(500).json({ error: err.message })
+    return res.status(500).json({ msg: 'Server error', error: err.message });
   }
-}
+};
 
 
 // Logout
