@@ -72,7 +72,8 @@ export const login = async (req, res) => {
 // Current user
 export const currentUser = async (req, res) => {
   try{
-    const token = req.cookies.token
+    console.log('Cookies:', req.cookies)
+    const token = req.cookie.token
     if(!token) return res.status(401).json({msg: 'Unauthorized'})
     
     const decoded = jwt.verify(token, process.env.JWT_SECRET)
