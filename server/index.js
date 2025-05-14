@@ -23,12 +23,15 @@ connectDB().catch((err) => {
 });
 
 // CORS configuration
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = [
+  'http://localhost:5173',
+  'https://vercel-e-commerce-rouge.vercel.app'
+];
 const corsOptions = {
   origin: (origin, callback) => {
     console.log('CORS check origin:', origin);
     if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, origin || true); // Allow non-origin requests (e.g., Postman)
+      callback(null, origin || true);
     } else {
       callback(new Error(`Not allowed by CORS: ${origin}`));
     }
@@ -40,12 +43,12 @@ const corsOptions = {
 };
 
 // Middleware
-app.use(helmet()); // Security headers
-app.use(morgan('dev')); // Request logging
+app.use(helmet());
+app.use(morgan('dev'));
 app.use(cors(corsOptions));
 app.use(express.json());
 app.use(cookieParser());
-app.set('trust proxy', 1); // Trust first proxy (e.g., for production)
+app.set('trust proxy', 1);
 
 // Routes
 app.use('/api/auth', authRoutes);
