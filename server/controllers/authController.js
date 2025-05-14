@@ -22,9 +22,6 @@ export const register = async (req, res) => {
     if (!username || !email || !password) {
       return res.status(400).json({ msg: 'All fields are required' });
     }
-    if (password.length <= 6) {
-      return res.status(400).json({ msg: 'Password must be at least 6 characters' });
-    }
 
     const existingUser = await User.findOne({ email });
     if (existingUser) {
@@ -135,7 +132,7 @@ export const logout = async (req, res) => {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
-      expires: new Date(0), 
+      expires: new Date(0), // Expire immediately
     });
     res.status(200).json({ msg: 'Logged out successfully' });
   } catch (err) {
