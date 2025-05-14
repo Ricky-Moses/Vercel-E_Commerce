@@ -9,7 +9,7 @@ const NotFound = () => {
         navigate('/')
     }
   return (
-    <div className='error w-dvw h-dvh grid lg:grid-cols-2 border'>
+    <div className='error w-dvw h-dvh grid lg:grid-cols-2'>
         <div className=" w-full flex items-center justify-center">
             <img className="w-10/12" src={ErrorImg} />
         </div>

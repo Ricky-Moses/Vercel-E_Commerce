@@ -1,7 +1,6 @@
 // Router
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 // Layouts
-import RootLayouts from './RootLayouts'
 import Header from './Layouts/Header'
 // Utilities
 import Register from './Utilities/Register'
@@ -18,7 +17,7 @@ const App = () => {
   const router = createBrowserRouter([
     {
       path: '/',
-      element: <RootLayouts />,
+      element: <Header />,
       errorElement: <NotFound />,
       children: [
 

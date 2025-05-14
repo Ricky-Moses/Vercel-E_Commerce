@@ -38,31 +38,6 @@ export const LoginUser = createAsyncThunk(
   }
 );
 
-// Current User with Retry
-export const CurrentUser = createAsyncThunk(
-  'auth/CurrentUser',
-  async (_, { rejectWithValue }) => {
-    const maxRetries = 2;
-    let attempt = 0;
-
-    while (attempt <= maxRetries) {
-      try {
-        const response = await axios.get('/me', { withCredentials: true });
-        console.log('Current user response:', response.data);
-        return response.data;
-      } catch (err) {
-        attempt++;
-        console.error(`Current user error (attempt ${attempt}):`, err.response?.data || err.message);
-        if (attempt > maxRetries) {
-          return rejectWithValue(err.response?.data?.msg || 'Failed to fetch current user');
-        }
-        // Wait before retrying
-        await new Promise((resolve) => setTimeout(resolve, 500 * attempt));
-      }
-    }
-  }
-);
-
 // Logout User
 export const LogoutUser = createAsyncThunk(
   'auth/LogoutUser',
@@ -102,8 +77,8 @@ const authSlice = createSlice({
         state.error = null;
       })
       .addCase(RegisterUser.fulfilled, (state, action) => {
-        state.loading = false;
         state.user = action.payload.user;
+        state.loading = false;
         state.isAuthenticated = true;
       })
       .addCase(RegisterUser.rejected, (state, action) => {
@@ -116,28 +91,12 @@ const authSlice = createSlice({
         state.error = null;
       })
       .addCase(LoginUser.fulfilled, (state, action) => {
-        state.loading = false;
         state.user = action.payload.user;
+        state.loading = false;
         state.isAuthenticated = true;
       })
       .addCase(LoginUser.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload;
-      })
-      // Current User
-      .addCase(CurrentUser.pending, (state) => {
-        state.loading = true;
-        state.error = null;
-      })
-      .addCase(CurrentUser.fulfilled, (state, action) => {
-        state.loading = false;
-        state.user = action.payload.user;
-        state.isAuthenticated = true;
-      })
-      .addCase(CurrentUser.rejected, (state, action) => {
-        state.loading = false;
-        state.user = null;
-        state.isAuthenticated = false;
         state.error = action.payload;
       })
       // Logout

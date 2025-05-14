@@ -22,7 +22,6 @@ const Search = () => {
       navigate('/login');
       return;
     }
-    navigate('/cart');
   };
 
   return (
@@ -47,7 +46,6 @@ const Search = () => {
         <button
           className="flex items-center"
           onClick={handleCartClick}
-          disabled={!isAuthenticated}
           aria-label={isAuthenticated ? 'View cart' : 'Log in to view cart'}
         >
           <MdShoppingCartCheckout className="text-2xl" />

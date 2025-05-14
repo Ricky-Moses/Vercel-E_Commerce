@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import { LoginUser, resetAuth } from '../../Context/Auth'; // Fixed import
 import { MdAttachEmail } from 'react-icons/md';
 import { RiLockPasswordFill } from 'react-icons/ri';
-import { persistor } from '../../App/Store';
 
 const LoginForm = () => {
     const dispatch = useDispatch();
@@ -14,43 +13,24 @@ const LoginForm = () => {
         email: '',
         password: '',
     });
-    const [isRehydrated, setIsRehydrated] = useState(false);
-
-    // Wait for redux-persist rehydration
-    useEffect(() => {
-        console.log('LoginForm - Checking rehydration...');
-        const unsubscribe = persistor.subscribe(() => {
-            const { bootstrapped } = persistor.getState();
-            console.log('LoginForm - Persistor state:', { bootstrapped });
-            if (bootstrapped) {
-                setIsRehydrated(true);
-                unsubscribe();
-            }
-        });
-        if (persistor.getState().bootstrapped) {
-            setIsRehydrated(true);
-            unsubscribe();
-        }
-        return () => unsubscribe();
-    }, []);
+    const [isAuth, setIsAuth] = useState(false)
 
     // Navigate after successful login
     useEffect(() => {
-        if (isRehydrated && isAuthenticated) {
-            console.log('LoginForm - User authenticated, navigating to home');
-            navigate('/', { replace: true });
-        }
-    }, [isAuthenticated, isRehydrated, navigate]);
-
+        console.log('LoginForm - User authenticated, navigating to home');
+        isAuth ? navigate('/') : setIsAuth(false)
+    }, [isAuthenticated, navigate]);
+    
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log('LoginForm - Submitting:', formData);
         dispatch(LoginUser(formData));
+        setIsAuth(true)
     };
 
     const clearError = () => {
@@ -131,20 +111,18 @@ const LoginForm = () => {
                         </div>
                     )}
                     <div className="w-full flex items-center justify-center">
-                        <button
-                            type="submit"
-                            className="btn w-4/6 flex items-center justify-center"
-                            disabled={loading}
-                        >
-                            {loading ? (
-                                <>
-                                    <span className="loading loading-spinner loading-md mr-2"></span>
-                                    Loading...
-                                </>
-                            ) : (
-                                'Login'
-                            )}
-                        </button>
+                        {isAuth && loading ? (
+                            <button
+                            type='submit'    
+                            className='btn w-4/6 flex items-center justify-center'
+                            disabled
+                            >
+                                <span className="loading loading-spinner loading-md mr-2"></span>
+                                Loading...
+                            </button>
+                        ) : (
+                            <button type='submit' className="btn w-4/6 flex items-center justify-center ">Login</button>
+                        )}
                     </div>
                 </div>
             </form>

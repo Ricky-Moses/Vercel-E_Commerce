@@ -7,9 +7,11 @@ import { IoIosPersonAdd } from "react-icons/io";
 import Logo from '../../asset/header_img/logo.png'
 // Router
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Navbar = ({ toggleSidebar }) => {
 
+    const { user, isAuthenticated } = useSelector(state => state.auth)
     const navigate = useNavigate()
 
     const handleRegister = () => {
@@ -26,7 +28,7 @@ const Navbar = ({ toggleSidebar }) => {
                     <img className="w-full h-full" src={Logo} />
                 </div>
             </div>
-            <div className="col2 flex items-center gap-5 xs:gap-10">
+            <div className="col2 flex items-center gap-5 xs:gap-7">
                 <div className="">
                     <TfiGift className='icon' />
                 </div>
@@ -34,7 +36,13 @@ const Navbar = ({ toggleSidebar }) => {
                     <GiBeachBag className='icon' />
                 </div>
                 <div className="">
-                    <IoIosPersonAdd className='icon' onClick={handleRegister} />
+                    {isAuthenticated ? (
+                        <>
+                            {user?.username || 'User'}
+                        </>
+                    ) : (
+                        <IoIosPersonAdd className='icon' onClick={handleRegister} />
+                    )}
                 </div>
             </div>
         </div>

@@ -95,36 +95,6 @@ export const login = async (req, res) => {
   }
 };
 
-// Current user
-export const currentUser = async (req, res) => {
-  try {
-    console.log('Cookies:', req.cookies);
-
-    const token = req.cookies?.token;
-    if (!token) {
-      return res.status(401).json({ msg: 'Unauthorized - No token provided' });
-    }
-
-    const decoded = jwt.verify(token, JWT_SECRET);
-    const user = await User.findById(decoded.id).select('-password');
-
-    if (!user) {
-      return res.status(404).json({ msg: 'User not found' });
-    }
-
-    res.status(200).json({ user });
-  } catch (err) {
-    console.error('Current user error:', err);
-    if (err.name === 'JsonWebTokenError') {
-      return res.status(401).json({ msg: 'Invalid token' });
-    }
-    if (err.name === 'TokenExpiredError') {
-      return res.status(401).json({ msg: 'Token expired' });
-    }
-    res.status(500).json({ msg: 'Server error', error: err.message });
-  }
-};
-
 // Logout
 export const logout = async (req, res) => {
   try {
