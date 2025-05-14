@@ -48,3 +48,6 @@ const persistor = persistStore(store);
 
 // Export store and persistor
 export { store, persistor };
+
+console.log('Store initialized:', store);
+console.log('Persistor initialized:', persistor);

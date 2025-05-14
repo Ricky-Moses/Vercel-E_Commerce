@@ -6,6 +6,9 @@ import { store, persistor } from './App/Store';
 import App from './App';
 import './main.scss'
 
+console.log('main.jsx - Store:', store);
+console.log('main.jsx - Persistor:', persistor);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>

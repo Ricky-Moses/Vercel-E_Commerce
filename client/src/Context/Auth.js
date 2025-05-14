@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // API URL with fallback
 const API = import.meta.env.VITE_API_URL_AUTH || 'http://localhost:3000/api/auth';
-console.log('Auth API URL:', API);
+// console.log('Auth API URL:', API);
 
 // Configure Axios
 axios.defaults.withCredentials = true;
