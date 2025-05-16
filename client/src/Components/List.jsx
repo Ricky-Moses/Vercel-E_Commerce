@@ -1,7 +1,16 @@
+// import { useState } from "react"
 
 const List = () => {
+
+  // const [list, setList] = useState([])
+
+
   return (
-    <div>List</div>
+    <div className="list absolute shadow-2xl !p-2 !py-4">
+      <div className="w-full">
+      
+      </div>
+    </div>
   )
 }
 

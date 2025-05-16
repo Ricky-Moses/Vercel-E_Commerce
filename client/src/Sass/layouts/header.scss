@@ -3,7 +3,7 @@
 
 // Desktop Header
 .desktop-header {
-  // Top
+  overflow-x: hidden;
   & .top {
     background: url("/banner.png") no-repeat;
     background-size: cover;
@@ -48,7 +48,7 @@
       & .col1 {
         & div:nth-of-type(2) {
           font-weight: 600;
-          & a {
+          & .menus {
             &:hover {
               color: map.get($color, summer);
             }
@@ -58,9 +58,9 @@
       // Search bar
       & .col2 {
         & .btn_div {
-          & div{
-            & span{
-              @include clamp(font-size, 1rem, 3vw, 1.2rem)
+          & div {
+            & span {
+              @include clamp(font-size, 1rem, 3vw, 1.2rem);
             }
           }
           & button {

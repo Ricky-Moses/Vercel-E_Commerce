@@ -1,0 +1,673 @@
+[
+    {
+        "MainMenu": [
+            {
+                "label": "Categories",
+                "link": "/",
+                "title": [""]
+            },
+            {
+                "label": "Brands",
+                "link": "/",
+                "title": [""]
+            },
+            {
+                "label": "Luxe",
+                "link": "/",
+                "title": ["Makeup", "Skin","Fragrance", "Hair", "Bath & Body", "Gifts", "Trending Now", "New Launches", "Minis"],
+                "subMenu":[
+                    {
+                        "name": "Makeup",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Makeup Collection Face",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Foundation",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Compact",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Highlighter",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Setting Spray",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Printer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Concealer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Blush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup Remover",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tinted Moisturizer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Contouring",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "BB & CC Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Palette",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Eyes",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Eye Shadow",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Mascara",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eyeliner & Kajal",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Brows",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eye Primer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Concealer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lashes",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Lips",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Liquid Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Plumper",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Liner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Tint",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Nails",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Nail Polish",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nail Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nail Polish Remover",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Tools & Brushes",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Brush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eye Brush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Applicators",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Brush",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Skin",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Face",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Serums & Essence",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Moisturies & Day Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Toner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Wash & Cleansers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Mist",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scrubs & Exfoliators",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Masks & Peels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Night Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sunscreen",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup Remover'",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Undereye Creams & Serums",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Lip care",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concern",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Pigmentation",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Acne",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dark Circles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Ageing",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dry Skin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oil Control",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pore Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Winkles And Fine Lines",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Fragrance",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Women's Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Perfumes (EDP/EDT)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face & Body Mists",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gifts",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Deodorants",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Men's Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Perfumes (EDP/EDT)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Aftershave",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face & Body Mists",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gifts",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Deodorants",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Candles",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Unisex",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Deodorants",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Gift Sets",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Minis",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hair",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Hair Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shampoo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Conditioner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Serums & Masks",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Tools & Accessories",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Dryers & Styles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "hair Brushes & Combs",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hair Styling Collection",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Spray",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Gifts Sets",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concers",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Dandruff",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Frizzy Hair",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Fall & Thinning",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Damaged Hair",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Coloured / Treated Hair",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oil Hair",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Split Ends",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bath & Body",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Bath",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shower Gels & Body",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Soaps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scrubs & Exfoliator",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Body",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Body Lotion & Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sunscreen",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gifts",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Makeup",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Skin",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Bath & Body",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Trending Now",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Natural & Organic",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Vegan & Cruelty Free",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Vitamin C",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Resinoids",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Hyaluronic Acid",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Retinol",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Hytauronic Acid",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "New Launches",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Makeup",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Skin",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Bath & Body",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Minis",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Makeup",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Skin",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            },
+                            {
+                                "subTitle": "Bath & Body",
+                                "link": "/",
+                                "subItems": [
+                                    
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {}
+]

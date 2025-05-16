@@ -19,7 +19,7 @@ const LoginForm = () => {
     useEffect(() => {
         console.log('LoginForm - User authenticated, navigating to home');
         isAuth ? navigate('/') : setIsAuth(false)
-    }, [isAuthenticated, navigate]);
+    }, [isAuthenticated, isAuth, navigate]);
     
     const handleChange = (e) => {
         const { name, value } = e.target;

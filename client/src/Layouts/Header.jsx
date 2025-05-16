@@ -25,7 +25,7 @@ const Header = () => {
     <>
       {device ? (
         <div className="mobile-header">
-          <Navbar toggleSidebar={() => setIsSidebarOpen(true)} />
+          {/* <Navbar toggleSidebar={() => setIsSidebarOpen(true)} /> */}
           <Searchbar />
           <Sidebar isOpen={isSidebarOpen} closeSidebar={() => setIsSidebarOpen(false)} />
         </div>
