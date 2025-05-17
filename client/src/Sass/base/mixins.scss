@@ -11,3 +11,10 @@
     transform: translate($tx, $ty);
     z-index: $z;
 }
+
+// Grid
+@mixin grid($px, $fr, $gap){
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($px, $fr));
+    gap: $gap;
+}

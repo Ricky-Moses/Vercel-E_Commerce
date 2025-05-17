@@ -1,9 +1,18 @@
 @use "../base/index.scss" as *;
 @use "sass:map";
 
-.list{
-    @include position(absolute, 62%, 15%, 0, 0, 1000);
-    width: 70dvw;
-    height: 70dvh;
-    background: #fff;
+.component-list {
+  @include position(absolute, 62%, 15%, 0, 0, 1000);
+  width: 70dvw;
+  height: 70dvh;
+  background: #fff;
+  & div:nth-of-type(1) {
+    & .title {
+      &:hover,
+      &:focus {
+        color: map.get($color, summer);
+      }
+    }
+  }
+
 }

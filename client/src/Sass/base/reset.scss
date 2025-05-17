@@ -1,20 +1,31 @@
-@use './variable.scss' as *;
-@use 'sass:map';
+@use "./variable.scss" as *;
+@use "sass:map";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: map.get($font, _inter);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: map.get($font, _inter);
 }
-html, body{
-    background: #fff;
-    color: #000;
-    position: relative;
+html,
+body {
+  background: #fff;
+  color: #000;
+  position: relative;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
+}
+
+.skeleton {
+  background-color: #e5e5e5;
+  background-image: linear-gradient(
+    105deg,
+    #0000 0% 40%,
+    oklch(0.87 0 0) 50%,
+    #0000 60% 100%
+  );
 }

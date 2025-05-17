@@ -25,7 +25,7 @@ const Search = () => {
   };
 
   return (
-    <div className="col2 flex items-center gap-5">
+    <div className="col2 w-full flex items-center justify-center gap-5">
       <label className="input bg-neutral-200 !px-1 flex items-center">
         <CiSearch className="text-2xl" />
         <input type="search" className="grow" placeholder="Search" aria-label="Search products" />

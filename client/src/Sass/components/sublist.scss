@@ -1,0 +1,7 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+.component-sublist{
+    @include position(absolute, 100%, 50%, -50%, 0%, 1000);
+    height: 65vh;
+}

@@ -29,7 +29,7 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
     // console.log(isOpen);
 
     return (
-        <div ref={sidebarRef} className='side-bar w-4/6 md:w-3/6 h-dvh bg-white shadow-2xl'>
+        <div ref={sidebarRef} className='side-bar w-4/6 md:w-7/12 h-dvh bg-white shadow-2xl '>
             <div className="advertise h-2/12 !p-2">
                 <div className="skeleton bg-neutral-200 w-full h-full"></div>
             </div>
@@ -46,7 +46,7 @@ const Sidebar = ({ isOpen, closeSidebar }) => {
                     </h1>
                 ))}
             </div>
-            <div className="list h-9/12">
+            <div className="list h-[60vh] !overflow-scroll">
                 {activeTab === 'Categories' ? <Category /> : <Brand />}
             </div>
         </div>

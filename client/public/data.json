@@ -4,12 +4,14 @@
             {
                 "label": "Categories",
                 "link": "/",
-                "title": [""]
+                "title": [],
+                "subMenu": []
             },
             {
                 "label": "Brands",
                 "link": "/",
-                "title": [""]
+                "title": [],
+                "subMenu": []
             },
             {
                 "label": "Luxe",
@@ -666,8 +668,3635 @@
                         ]
                     }
                 ]
+            },
+            {
+                "label": "Rykaa Fashion",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "New",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "What's New",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Recently Added",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Men",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Top wear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bottom Wear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Ethnic Wear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Footwear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Athiesure",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Innerwear & Sleepwear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Watches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Accessories",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bags",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Kids",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Western Wear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Indian Wear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Footwear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Toys & Games",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Feeding",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sportswear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sleep & Lounge",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Home",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Kitchen & Dining",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Decor",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bedding",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Storage",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Floor Coverings",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Kitchen Appliances",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "House Of Rykaa",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Twenty Dresses by Rykaa Fashion",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "RSVP by Rykaa Fashion",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gajra Gang",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rykd by Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pipa Bella",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "IYKYK by Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Fashion",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Kica",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Twig and Twine",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Likha By Rykaa Fashion",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gloot",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Ruri",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Azai by Rykaa Fashion",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "MIXT",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pariditi",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lehan",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gahan",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Forever New",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cider",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Na-Kd",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Vero Moda",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Autumnlane",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Puma",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sketches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "FableStreet",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Biba",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "W",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shoetopia",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Levis",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Beauty Advice",
+                "link": "/",
+                "title": [],
+                "subMenu": []
             }
         ]
     },
-    {}
+    {
+        "SubMenu": [
+            {
+                "label": "Makeup",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Face",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Face",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Primer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Concealer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Foundation",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Compact",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Contouring",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Loose Powder",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tinted Moisturizer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Blush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bronzer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "BB & CC Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Highlighter",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Setting Spray",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup Remover",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sindoor",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Eyes",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Kajal",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eyeliner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Mascara",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eyeshadow",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eyebrow Brow Enhancer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eye Primer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "False Eyelashes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eye Makeup Remover",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Under Eye Concealer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Contact Lenses",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Makeup Kits & Combos",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Makeup Kits",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup Combos",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Lips",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Liquid Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Crayon",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Gloss",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Liner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Plumper",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Tint",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Nails",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Nail Polish",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nail Art Kits",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nail Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nail Polish Remover",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Tools & Brushes",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Brushes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eye Brush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Brush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Brush Sets",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Brush Cleaners",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sponge & Applicators",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eyelash Curler",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tweezers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sharpeners",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup Pouches",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Kay Beauty",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Huda Beauty",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Charlotte Tilbury",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "M.A.C",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Maybelline New York",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "L'Oreal Paris",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "L'Oreal Paris",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rykaa Cosmetics",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Ryx Pro Makeup",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Ouick Links",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Combos @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "New Launches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gifts @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "The Gifts Stone",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Trending Searches",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Nude Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Matte Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Red Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pink Lipstick",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Skin",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Skin",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Moisturizers",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Moisturizes & Days",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Night Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "All Purpose Gels/Cream",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Serums",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Serums & Essence",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Cleansers",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cleansers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Micellar Water",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Wipes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup Remover",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scrubs & Exfoliator",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Trending Searches",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Toner Under 1000",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Wash For Only Skin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oil Free Face",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Moistures",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Balm Under 500",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Vitamin C Serum",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Masks",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Sheet Masks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sleeping Masks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Masks & Peels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Packs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Bleach",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Toners",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Toners & Mists",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rose Water",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Body Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Lotions & Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Butter",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Message Oils",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shower Gels & Body",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Soaps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scrubs & Loofahs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath Salts",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hands & Feet",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hand Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Foot Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hand & Foot Masks",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Specialized Skincare",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Acne Spot Corrections",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nose Strips",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Facial Peels",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Eye Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Under Eye Cream & Serums",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eye Masks",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Lip Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Lip Balm",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Scrubs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Masks",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Sun Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Sunscreen",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Sunscreen",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Kits & Combo",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Facial Kits",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Combos @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gifts Sets",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Skin Tools",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Massagers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cleansing Brushes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Blackhead Removed",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dermarollers",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Skin Supplement",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Vitamins & Minerals",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Ayurvedic Herbs",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concern",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Acne",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dull Skin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pigmentation",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wrinkles & Fine Lines",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pores",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dark Spots",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Tan",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oil Control",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Hair",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Hair",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Hair Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shampoo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dry Shampoo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Conditioner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Serum",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Creams & Masks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Supplements",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Leave in Conditioner",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Tools & Accessories",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Brushes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Combs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dryers & Styles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Straighteners",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rollers & Curles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Extension",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Accessories",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hair Styling",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Color",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Spray",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Gel & Waxes",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Hair Type",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Straight",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Curl & Wavy",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concern",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Fall & Thinning",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dandruff",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dry & Frizzy Hair",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Split Ends",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Color Protection",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Damaged Hair",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Growth",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Curl Enhancing",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Volume",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Length & Shine",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bond Building",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hair Kits & Combos",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Kits",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Combos",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Rykaa Naturals",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "L'Oreal Paris",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wella Professionals",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "B Blunt",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Herbel Essences",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Schwarzkopf",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Professional",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Trending Searches",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Growth",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dandruff Shampoo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Castor Oil For Hair",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sulphate Free Shampoo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Straightener Brush",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Quick Links",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Combos",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "New Launches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "NFBA Nominees 2025",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Herbel Hair Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "The Gift Store",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Appliance",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Appliance",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Hair Styling Tools",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hair Dryers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Straighteners",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Straighteners Brush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Curling Irons",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Multi Styles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Blow Brushes",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hair Removal Tools",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Epliators",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Groomers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bikini Trimmers",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shaving Tools",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shavers For Men",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Trimmers For Men",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Oral Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Electric Toothbrush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Electric Flosser",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Face/Skin Tools",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Epilators",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dermarollers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cleansing Brushes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Acne Remover",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Massage Tools",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Massage",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "FOREO",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Philips",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Alan Truman",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dyson",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "VEGA",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Braun",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Ikonic Professional",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nova",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Flawless",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Quick Links",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Combos @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "New Launches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "NFBA Nominees 2025",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gift @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Herbel Hair Care",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Bath & Body",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Bath & Body",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Bath & Shower",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shower",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Scrubs & Exfoliators",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Soaps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath Salts",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Body Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Body Lotions & Moisturizers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Butters",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Talcum Powder",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Massage Oils",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Essential Oils",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hand Wash",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Hand Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hand Creams & Masks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Foot Care",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Feminine Hygiene",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Sanitary Napkins",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Menstrual Cups",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tampons",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pantyliners",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Period Panties",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Intimate Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cotton Buds & Balls",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Other Period Essentials",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Female Grooming",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Body Razors & Cartridges",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face & Eyebrows Razors",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wax & Wax Strips",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Epilators & Bikini",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Trimmers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pre & Post Waxing",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Essential",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Deodorants/Roll-Ons",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Mist/Spray",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Male Grooming",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Razors & Cartridge",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shaving Creams, Forms & Gels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pre & Post Shaves",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shavers & Trimmers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard & Moustache Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Intimate Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Deodorants/Roll-Ons",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Mist/Spray",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Colognes",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Oral Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Toothpaste",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Electric Toothbrush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Manual Toothbrush",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Mouthwash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Floss & Tounge",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cleaners",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Tools & Accessories",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Manicure & Pedicure",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Loofans",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath Accessories",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Others",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Kits & Combos",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Bath & Body Kits",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath & Body Combos",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Bath & Body Works",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "MCaffeine",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "NIVEA",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "The Body Shop",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Vaseline",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dove",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wanderlust",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gillette Venus",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Be Bodylovin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Chemist At Play",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lux",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Carmesi",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Ouick Links",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "New Launches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "The Gift Store",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Daily Essentials",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Trending Searches",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Body Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Lotions",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Razors For Women",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sanitary Napkins",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Scrubs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Deodorants",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Natural",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Natural",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Skin",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Sheet Masks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Masks & Peels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scrubs & Exfoliators",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Tools",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Face Gel",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Scrubs",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Body Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shower Gels & Body Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Soaps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Lotions",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Scrubs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath Salts & Bath",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bombs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hands & Feet Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath Tools & Accessories",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oral Care",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hair",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shampoo & Cleanser",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Conditioner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Masks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Serum",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Color",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tools & Accessories",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Aromatherapy",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Massage Oils",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Carrier Oils",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Essential",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Candles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Diffuser",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Incense Sticks",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Makeup",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Lipstick",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Kajal",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eyeliner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Mascara",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nail Polish",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lip Balm & Gloss",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Foundation & Concealer",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Blush & Highlighter",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Makeup Remover",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tools & Brushes",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Biotique",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lotus Herbals",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "The Body Shop",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rykaa Naturals",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Kama Ayurveda",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Forest Essentials",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Khadi Natural",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Himalaya",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "VLCC",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Types Of Skin",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Dry Skin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Normal Skin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oil Control",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Combination Skin",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concern",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Tan Removal",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pigmentation",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Ache treatment",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Skin Lightening",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Anti Aging",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dark Circles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hairfall",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dandruff",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dry & Frizzy Hair",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Ouick Links",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "New Launches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Combos @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gifts @ Rykaa",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Mom & Baby",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Mom & Baby",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Baby Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Body Wash & soaps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Baby Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lotions & Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Baby Powder",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shampoo & Conditioner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sunscreen",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wipes & Buds",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Teeth & Dental Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rash Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Diapering",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Diaper Accessories",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath Accessories",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Baby Accessories",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Baby Grooming",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Baby Bedding",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Kids Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Nutritional Supplements",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Wash & soaps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Lotions & Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sunscreen",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dental Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Kids Makeup",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Maternity Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Stretch Mark Creams & Oils",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Breast Firming Gels & Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nipple Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nutritional Supplements",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Nursing & Feeding",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Feeding Bottles & Nipples",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Teethers & Soothers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Breast Pumps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Breast Pads",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cleaning & Feeding",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Accessories",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bibs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sippers & Cups",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Health & Safety",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Nose & Ear Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gripe Water & Tummy",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Roll On",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Detergents & Cleaners",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Handwash & Sanitizers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Mosquito Repellents",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Maternity Wear",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Maternity Bra",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Maternity Dress",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Maternity Tops",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concern",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Baby Dry Skin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Cracked Nipple Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scalp treatment",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Coconut Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Almond Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Heat Rash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Toning & Firming",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Baby Skin Concerns",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Health & Wellness",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Health & Wellness",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Health Supplements",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Multivitamins",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Calcium & Vitamin D",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Magnesium & Zinc",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Omega 3 & Fish Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Immunity Boosters & Vitamin C",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Other Supplements",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Melatonin (Sleep Care)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Brain Boost",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Eye Care (Lutein)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gut Health",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Beauty Supplements",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Collagen",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Biotin",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Vitamin E",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Glutathione",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Other Beauty",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Supplement",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Sports Nutrition",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Whey Protein",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Plant Protein",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "BCAA & Other Muscle",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Support",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Protein Bars & Snacks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Protein Snacks",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Creathine",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "L Glutamine",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Mass Gainer",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Weight Management",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Weight Gain",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Apple Cider Vineger",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Green Tea - Beverage",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Green Coffee - Beverage",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Fat Burners",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Slimming Shakes & Juice",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sugar Substitutes",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hydration",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Health Drinks",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Health Foods",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Edible Honey",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dry Fruits, Nut & Berries",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Edible Seeds",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oils & Seeds",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oils & Ghee",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Black Tea & Coffee",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Herbel Tea",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Breakfast Cereals",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Peanuts Butter",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Sports & Fitness",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Cardio Equipment",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Strength Training",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Fitness Accessories",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Wellness Equipment",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Weighting Scales",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Fitness",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Support & Braces",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Pain Relief",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Muscullar & Ortho",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Period Cramps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Other Pain",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Health & Wellness Kits & Combos",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Health & Wellness Kits",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Health & Wellness",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Combos",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pregnancy Kits",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Watches",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Smart Wearables",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Ayurveda & Herbs",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Ashwagandha",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Neem (Powder & Tablets)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Amla Juice",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Aloe Vera (Tablets & Juice)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Milk Thistle (Liver)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wheatgrass (Powder & Juice)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tulsi (Tablets & Juice)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Giloy & Guduchi (Tablets & Juice)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Turmeric (Tablets & Juice)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Spirulina & Moringa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Chyavanprash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shilajit",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Other Herbal",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Supplement",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concern",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Diabetes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Digestion (Gut Health)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Organs - Liver, Heart, Kidney",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Safety & First Aid",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Weakness & Vitality",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Kids Nutrition",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Blood Pressure",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hormonal Balance",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Calm & Sleep",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Men",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Men",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Shaving",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Razors & Cartridge",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shavers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Trimmers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shaving Creams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shaving Foams",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shaving Gels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pre & Post Shaves",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Aftershave Lotion",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shaving Brushes",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Beard Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Beard Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Butter",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Softener",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Wax",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Moustache Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Comb",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Moustache Wac",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Kits",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Gel",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Balm",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Cream",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Serum",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Mist",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Color",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Beard Shampoo",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Hair Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Shampoo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Conditioner",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Styling",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Color",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hair Oil",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Professional Products",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Skin Care",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Face Wash",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Moistures",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sunscreen",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Masks & Peels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scrubs & Exfoliator",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Fairness",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Bath & Body",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Bath/Shower Gels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Soaps",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Scrubs",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Talc",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dental Care",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Lotions",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Intimate Care",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Deodorants/Roll-Ons",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Colognes & Perfumes (EDT & EDP)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Luxe Fragrance",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Concern",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Anti Dandruff",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Anti Hairfall",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Scalp treatment",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Anti Ache",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Anti Aging",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Wellness",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Sexual Wellness",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Health Supplements",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Weight Management",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sports Nutrition",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Beardo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gilette",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Livon",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nivea",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Park Aventue",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Ouick Links",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Combos @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "New Launches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gifts @ Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "The Gift Store",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Fragrance",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Fragrance",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Women's Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Perfumes (EDP/EDT)",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Body Mist/Spray",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Men's Fragrance",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Perfumes (EDP/EDT)",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Shop By Fragrance Family",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Earthy & Woody",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Floral",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Fresh & Aquatic",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Spicy & Warm",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Oud Collection",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Fruit",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Aromatherapy",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Candles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Diffuser",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Incense Sticks",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Top Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Dior",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Gucci",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Yves Saint Laurent",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bvlgari",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Davidoff",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Versace",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Glorgia Armani",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bella Vita Organic",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Plum",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Victoria Secret",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath and Body Works",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rykaa Perfumes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Renee",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Carlton",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Perfume",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Engage",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Permium And Designer Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Explore All",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dior",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hermes",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Jo Malone London",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Guerlain",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "BVLGARI",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Salvatore Ferragamo",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Calvin Klein",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Glorgio Armani",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Davidoff",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Paco Rabanne",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Carolina Heerera",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Yves Saint Laurent",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Elie Saab",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Dolce & Gabbana",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Nariciso Rodriguez",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Hugo Boss",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Montblanc",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Ouick Links",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "New Launches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "The Gift Store",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "label": "Lingerie & Accessory",
+                "link": "/",
+                "title": [],
+                "subMenu": [
+                    {
+                        "name": "Lingerie & Accessory",
+                        "link": "/",
+                        "items": [
+                            {
+                                "subTitle": "Lingerie",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Bras",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Underwear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sleep & Lounge",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shapewear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Swimwear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Maternity Wear",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Activewear",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Watches",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Smart Watches & Activity Tracker",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Bags",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Slign Bags",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Handbag",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wallets & Card Cases",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Tote Bags",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Backpacks & Duffel",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bags",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Satchles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Clutches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Laptop Bags",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Vanity Bags & Pouches",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Batuas & Potlis",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Footwear",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Sport Shoes & Sneakers",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Sandles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Heels",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Flats",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Flip Flops",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Wedges",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Boots",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Juttis",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Kolhapuris",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Stilletos",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Loafers",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Jewellery",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Earrings",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Necklace",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Jewellary Sets",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Maang Tikka",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bracelet & Bangles",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Rings",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Mangalsutra",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Anklets",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Home",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "Decor",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bedding",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Bath",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Storage",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Home Essentials",
+                                        "link": "/"
+                                    }
+                                ]
+                            },
+                            {
+                                "subTitle": "Featured Brands",
+                                "link": "/",
+                                "subItems": [
+                                    {
+                                        "itemsName": "RYKO by Rykaa",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Puma",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Jockey",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Zivarme",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Pipa Bella By Nykaa Fashion",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Accessories London",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Shoetopia",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Twenty Dresser",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "NFI Essentials",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Enamor",
+                                        "link": "/"
+                                    },
+                                    {
+                                        "itemsName": "Titan",
+                                        "link": "/"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 ]
