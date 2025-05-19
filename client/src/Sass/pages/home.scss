@@ -210,7 +210,7 @@
     }
   }
   & .row22{
-    @include clamp(height, 20rem, 25vw, 23rem);
+    @include clamp(height, 10rem, 25vw, 23rem);
     background: map.get($color, autumn);
     & h1 {
       color: map.get($color, summer_pink);
@@ -218,9 +218,9 @@
     }
   }
   & .row23{
-    @include clamp(height, 20rem, 30vw, 28rem);
+    @include clamp(height, 15rem, 30vw, 28rem);
   }
   & .row24{
-    @include clamp(height, 15rem, 25vw, 20rem);
+    @include clamp(height, 10rem, 25vw, 20rem);
   }
 }
