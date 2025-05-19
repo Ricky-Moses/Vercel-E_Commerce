@@ -10,5 +10,8 @@
 // Header
 @use './Sass/layouts/header.scss';
 
+// Pages
+@use './Sass/pages/pages.scss';
+
 // Authentication
 @use './Sass/util/auth.scss';

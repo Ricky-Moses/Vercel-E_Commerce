@@ -1,7 +1,8 @@
 // Router
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
 // Layouts
 import Header from './Layouts/Header'
+
 // Utilities
 import Register from './Utilities/Register'
 import Login from './Utilities/Login'
@@ -10,8 +11,10 @@ import NotFound from './Error/NotFound'
 // Redux
 // Slice
 // Pages
+import Home from './Pages/Home'
 
 const App = () => {
+
 
 
   const router = createBrowserRouter([
@@ -20,7 +23,10 @@ const App = () => {
       element: <Header />,
       errorElement: <NotFound />,
       children: [
-
+        {
+          path: '/',
+          element: <Home />
+        }
       ]
     },
     {

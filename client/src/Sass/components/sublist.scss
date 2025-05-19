@@ -2,6 +2,7 @@
 @use "sass:map";
 
 .component-sublist{
-    @include position(absolute, 100%, 50%, -50%, 0%, 1000);
+    @include position(absolute, 55%, 50%, -50%, -50%, 1000);
     height: 65vh;
+    background: #fff;
 }
