@@ -1,5 +1,5 @@
 import express from 'express'
-import { adPage } from '../controllers/adController'
+import { adPage } from '../controllers/adController.js'
 
 const router = express.Router()
 
