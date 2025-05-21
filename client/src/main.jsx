@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 // Redux
 import { Provider } from 'react-redux';
-import { store } from './App/Store';
+import store from './App/Store';
 // Context
 import { MenuProvider } from './Hooks/useContext'
 // Main Routing
