@@ -203,7 +203,7 @@
     }
   }
   & .row21{
-    @include clamp(height, 20rem, 40vw, 40rem);
+    @include clamp(height, 25rem, 35vw, 40rem);
     & h1 {
       color: map.get($color, summer);
       font-family: map.get($font, _merienda);

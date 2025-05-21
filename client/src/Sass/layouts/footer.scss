@@ -1,0 +1,36 @@
+@use "../base/index.scss" as *;
+@use "sass:map";
+
+.footer {
+  & .sec-1 {
+    width: 100vw;
+    @include clamp(height, 8rem, 15vw, 15rem);
+    background: map.get($color, footer);
+  }
+  & .desktop-footer {
+    & .sec-2 {
+      width: 100vw;
+      @include clamp(height, 15rem, 25vw, 25rem);
+      background: map.get($color, footer_subtle);
+    }
+    & .sec-3 {
+      width: 100vw;
+      @include clamp(height, 10rem, 15vw, 15rem);
+    }
+    & .sec-4 {
+      width: 100vw;
+      @include clamp(height, 4rem, 10vw, 6rem);
+      background: map.get($color, summer_pink);
+    }
+    & .sec-5 {
+      width: 100vw;
+      @include clamp(height, 10rem, 15vw, 15rem);
+    }
+  }
+
+  & .mobile-footer {
+    & .sec-2{
+        @include clamp(height, 15rem, 30vw, 25rem);
+    }
+  }
+}

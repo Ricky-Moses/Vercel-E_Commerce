@@ -1,8 +1,25 @@
-import React from 'react'
+import { useEffect, useState } from "react"
+import MobileFooter from "./Mobile/MobileFooter"
+import DesktopFooter from "./Desktop/DesktopFooter"
 
 const Footer = () => {
+
+  const [ device, setDevice ] = useState(window.innerWidth < 992)
+
+  useEffect(() => {
+    const handleSize = () => {
+      setDevice(window.innerWidth < 922)
+    }
+
+    window.addEventListener('resize', handleSize)
+
+    return () => window.removeEventListener('resize', handleSize)
+  })
+
   return (
-    <div>Footer</div>
+    <div className="footer">
+      {device ? <MobileFooter /> : <DesktopFooter />}
+    </div>
   )
 }
 

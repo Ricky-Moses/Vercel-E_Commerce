@@ -1,10 +1,8 @@
 import SimpleSlider from "../../Components/SlideComponent";
 
 const advertiseMent = [
-    { img: '/banner.png', link: '', name: 'Image - 1' },
-    { img: '', link: '', name: 'Image - 2' },
-    { img: '', link: '', name: 'Image - 3' },
-    { img: '', link: '', name: 'Image - 4' }
+    { img: '', link: '', name: 'Image - 1' },
+    { img: '', link: '', name: 'Image - 2' }
 ]
 
 const advertiseOneSetting = {

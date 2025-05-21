@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import helmet from 'helmet';
 import connectDB from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
+import adRoutes from './routes/adRoutes.js'
 
 // Validate environment variables
 const requiredEnvVars = ['PORT', 'JWT_SECRET', 'MONGODB_URL'];
@@ -52,6 +53,7 @@ app.set('trust proxy', 1);
 
 // Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/ads', adRoutes)
 
 // Health check endpoint
 app.get('/health', (req, res) => {
