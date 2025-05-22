@@ -1,17 +1,9 @@
+import { useDispatch, useSelector } from "react-redux";
 import SimpleSlider from "../../Components/SlideComponent";
+import { useEffect } from "react";
+import { fetchAdvertisement } from "../../Context/Ad";
 
-const advertiseMent = [
-    { img: '', link: '', name: 'Image - 1' },
-    { img: '', link: '', name: 'Image - 2' },
-    { img: '', link: '', name: 'Image - 3' },
-    { img: '', link: '', name: 'Image - 4' },
-    { img: '', link: '', name: 'Image - 5' },
-    { img: '', link: '', name: 'Image - 6' },
-    { img: '', link: '', name: 'Image - 7' },
-    { img: '', link: '', name: 'Image - 8' },
-    { img: '', link: '', name: 'Image - 9' },
-    { img: '', link: '', name: 'Image - 10' },
-]
+
 
 const advertiseOneSetting = {
     slidesToShow: 6,
@@ -39,10 +31,16 @@ const advertiseOneSetting = {
 };
 
 const AdvertisementTwo = () => {
+    const dispatch = useDispatch()
+    const { data } = useSelector(state => state.ads)
+
+    useEffect(() => {
+        dispatch(fetchAdvertisement())
+    }, [dispatch])
     return (
         <div className="row3">
             <SimpleSlider
-                slides={advertiseMent}
+                slides={data[2]}
                 settings={advertiseOneSetting}
                 width="90%"
                 height="clamp(5rem, 15vw, 13rem)"

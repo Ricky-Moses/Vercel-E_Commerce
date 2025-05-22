@@ -1,4 +1,7 @@
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import Slider from "react-slick";
+import { fetchAdvertisement } from "../Context/Ad";
 
 
 const defaultSettings = {
@@ -23,29 +26,31 @@ const SliderComponent = ({
     justifyContent = "center",
 }) => {
 
+    const dispatch = useDispatch()
+    const { loading, error } = useSelector(state => state.ads)
+
+    useEffect(() => {
+        dispatch(fetchAdvertisement())
+    }, [dispatch])
+
     const sliderSettings = { ...defaultSettings, ...settings };
-    const bol = false
+
 
     return (
-        <div className="" style={{ width: '100vw', display, alignItems, justifyContent }}>
+        <div className="" style={{ width: '100dvw', display, alignItems, justifyContent }}>
             <div className="" style={{ width, height }}>
                 <Slider {...sliderSettings}>
-                    {slides.map((slide, index) => (
-                        <div
-                            key={index}
-                            className="w-full h-full "
-                        >
-                            {bol ? (
-                                <img
-                                    src={slide.img}
-                                    alt={slide.name}
-                                    className=" w-full h-full object-contain"
-                                />
-                            ) : (
-                                <div className="skeleton w-full h-full"></div>
-                            )}
-                        </div>
-                    ))}
+                    {loading ? (
+                        <div className="skeleton w-full h-full"></div>
+                    ) : error ? (
+                        <div className="skeleton w-full h-full bg-base-300"></div>
+                    ) : (
+                        slides?.images?.map((pic) => (
+                            <div key={pic?._id} className="max-w-full h-full outline-0">
+                                <img className="w-full h-full object-contain" src={pic?.img} />
+                            </div>
+                        ))
+                    )}
                 </Slider>
             </div>
         </div>

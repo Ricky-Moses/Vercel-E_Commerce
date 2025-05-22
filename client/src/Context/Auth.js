@@ -1,20 +1,13 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
+import authAxios from '../API/authAxios.js'
 
-// API URL with fallback
-const API = import.meta.env.VITE_API_URL_AUTH || 'http://localhost:3000/api/auth';
-// console.log('Auth API URL:', API);
-
-// Configure Axios
-axios.defaults.withCredentials = true;
-axios.defaults.baseURL = API;
 
 // Register User
 export const RegisterUser = createAsyncThunk(
   'auth/RegisterUser',
   async (userData, { rejectWithValue }) => {
     try {
-      const response = await axios.post('/register', userData);
+      const response = await authAxios.post('/register', userData);
       return response.data;
     } catch (err) {
       console.error('Register error:', err.response?.data || err.message);
@@ -28,7 +21,7 @@ export const LoginUser = createAsyncThunk(
   'auth/LoginUser',
   async (userData, { rejectWithValue }) => {
     try {
-      const response = await axios.post('/login', userData);
+      const response = await authAxios.post('/login', userData);
       console.log('Login response:', response.data);
       return response.data;
     } catch (err) {
@@ -43,7 +36,7 @@ export const LogoutUser = createAsyncThunk(
   'auth/LogoutUser',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get('/logout', { withCredentials: true });
+      const response = await authAxios.get('/logout', { withCredentials: true });
       return response.data;
     } catch (err) {
       console.error('Logout error:', err.response?.data || err.message);

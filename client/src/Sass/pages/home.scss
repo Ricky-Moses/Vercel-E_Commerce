@@ -9,8 +9,14 @@
   & h1 {
     @include clamp(font-size, 1rem, 3vw, 2.5rem);
   }
+  & img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
   & .row1 {
-    @include clamp(height, 10rem, 30vw, 20rem);
+    @include clamp(height, 3rem, 30vw, 20rem);
+    background: linear-gradient(to bottom, #516abf, map.get($color, summer));
   }
   & .row2 {
   }
