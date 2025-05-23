@@ -1,43 +1,41 @@
-import { useEffect, useMemo } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { fetchAdvertisement } from "../../Context/Ad"
 import SliderComponent from "../../Components/SlideComponent"
+import { useEffect, useMemo } from "react"
+import { fetchAdvertisement } from "../../Context/Ad"
 
-
-
-const HeadAd = () => {
+const SecondPanel = () => {
     const dispatch = useDispatch()
     const { data } = useSelector(state => state.ads)
+
 
     useEffect(() => {
         dispatch(fetchAdvertisement())
 
-
     }, [dispatch])
 
-    // console.log('Tablet: ',tablet);
+    const Data = useMemo(() => data[1] || [], [data]);
 
-    const Data = useMemo(() => data[0] || [], [data]);
-    // console.log('Images: ',images);
-    // console.log('Data 1: ',data[0]);
-
-    const headSetting = useMemo(() => ({
+    const SecondPanelSetting = useMemo(() => ({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
         infinite: Data?.images?.length > 1,
-        speed: 3000,
+        speed: 500,
         arrows: false,
-    }
-    ), [Data?.images?.length])
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
 
+        ],
+    }), [Data?.images?.length])
+    console.log(SecondPanelSetting);
     return (
-        <div className="row1">
+        <div className="row2">
             <SliderComponent
                 slides={Data}
-                settings={headSetting}
+                settings={SecondPanelSetting}
                 width="100%"
-                height='clamp(12.3rem, 21vw, 20.2rem)'
+                height='clamp(5rem, 9vw, 9rem)'
                 slider_width="100%"
                 slider_height="100%"
             />
@@ -45,4 +43,4 @@ const HeadAd = () => {
     )
 }
 
-export default HeadAd
+export default SecondPanel

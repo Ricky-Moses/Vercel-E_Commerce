@@ -1,16 +1,19 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Slider from "react-slick";
 import { fetchAdvertisement } from "../Context/Ad";
+import { MdOutlineError } from "react-icons/md";
 
 
 const defaultSettings = {
     slidesToShow: 1,
     slidesToScroll: 1,
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     speed: 500,
     arrows: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
 
     ],
@@ -27,33 +30,45 @@ const SliderComponent = ({
 
     const dispatch = useDispatch()
     const { loading, error } = useSelector(state => state.ads)
+    const [tablet, setTablet] = useState(window.innerWidth < 768)
 
     useEffect(() => {
         dispatch(fetchAdvertisement())
+        const handleDevice = () => {
+            setTablet(window.innerWidth < 768)
+        }
+
+        window.addEventListener('resize', handleDevice)
+        return () => window.removeEventListener('resize', handleDevice)
     }, [dispatch])
 
-    const sliderSettings = { ...defaultSettings, ...settings };
-    console.log(sliderSettings);
-    console.log('Height: ', height);
-
-
+    const sliderSettings = {
+        ...defaultSettings,
+        ...settings,
+    };
+    // console.log(sliderSettings);
+    // console.log('Height: ', height);
     return (
         <div className="" style={{ width: '100dvw' }}>
-            <div className="" style={{ width, height }}>
+            <div className="" style={{ width, height: tablet ? 'fit-content' : height }}>
                 <Slider {...sliderSettings}>
-                    <div>
-                        {loading ? (
-                            <div className=""></div>
-                        ) : error ? (
-                            <div className=""></div>
-                        ) : (
-                            slides?.images?.map((pic, i) => (
-                                <div key={i} className="" style={{ width: slider_width, height: slider_height }}>
-                                    <img src={pic?.img} alt="" />
-                                </div>
-                            ))
-                        )}
-                    </div>
+                    {loading ? (
+                        <div className="">
+                            <span className="loading loading-dots loading-sm"></span>
+                            <span className="">Loading</span>
+                        </div>
+                    ) : error ? (
+                        <div role="alert" className="alert alert-error !flex !p-3">
+                            <MdOutlineError className="text-2xl" />
+                            <span className="text-2xl">Error Occurred! Fetching the data failed.</span>
+                        </div>
+                    ) : (
+                        slides?.images?.map((pic, i) => (
+                            <div key={i} className="outline-0 cursor-pointer" style={{ width: slider_width, height: slider_height }}>
+                                <img src={pic?.img} alt="" />
+                            </div>
+                        ))
+                    )}
                 </Slider>
             </div>
         </div>
