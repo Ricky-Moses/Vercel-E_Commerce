@@ -25,7 +25,8 @@ const SliderComponent = ({
     width = "100%",
     height = "300px",
     slider_width = "60%",
-    slider_height = "60%"
+    slider_height = "60%",
+    radius = '0'
 }) => {
 
     const dispatch = useDispatch()
@@ -53,19 +54,19 @@ const SliderComponent = ({
             <div className="" style={{ width, height: tablet ? 'fit-content' : height }}>
                 <Slider {...sliderSettings}>
                     {loading ? (
-                        <div className="">
+                        <div className="skeleton w-full h-full">
                             <span className="loading loading-dots loading-sm"></span>
-                            <span className="">Loading</span>
+                            <span className="text-[20px]">Loading</span>
                         </div>
                     ) : error ? (
                         <div role="alert" className="alert alert-error !flex !p-3">
-                            <MdOutlineError className="text-2xl" />
-                            <span className="text-2xl">Error Occurred! Fetching the data failed.</span>
+                            <MdOutlineError className="lg:text-2xl" />
+                            <span className="lg:text-2xl">Error Occurred! Fetching the data failed.</span>
                         </div>
                     ) : (
                         slides?.images?.map((pic, i) => (
-                            <div key={i} className="outline-0 cursor-pointer" style={{ width: slider_width, height: slider_height }}>
-                                <img src={pic?.img} alt="" />
+                            <div key={i} className="outline-0 cursor-pointer" style={{ width: slider_width, height: slider_height,  }}>
+                                <img src={pic?.img} alt={pic?.img} style={{borderRadius: radius}} />
                             </div>
                         ))
                     )}

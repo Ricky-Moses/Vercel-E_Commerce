@@ -1,10 +1,10 @@
 import { useDispatch, useSelector } from "react-redux"
-import SliderComponent from "../../Components/SlideComponent"
-import { useEffect, useMemo } from "react"
 import { fetchAdvertisement } from "../../Context/Ad"
+import { useEffect, useMemo } from "react"
+import SliderComponent from "../../Components/SlideComponent"
 
 
-const ThirdPanel = () => {
+const FifthPanel = () => {
     const dispatch = useDispatch()
     const { data } = useSelector(state => state.ads)
 
@@ -12,47 +12,41 @@ const ThirdPanel = () => {
         dispatch(fetchAdvertisement())
     }, [dispatch])
 
-    const Data = useMemo(() => data[2] || [], [data])
+    const Data = useMemo(() => data[4] || [], [data])
 
-    const ThirdPanelSetting = useMemo(() => ({
-        slidesToShow: 6,
-        slidesToScroll: 3,
+    const FifthPanelSetting = useMemo(() => ({
+        slidesToShow: 3,
+        slidesToScroll: 1,
         dots: false,
         infinite: Data?.images?.length > 1,
         speed: 500,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         rtl: true,
         responsive: [
             {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 2
-                }
-            },
-            {
                 breakpoint: 576,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1
                 }
             }
         ],
     }), [Data?.images?.length])
     return (
-        <div className="row3">
+        <div className="row5 !my-1">
             <SliderComponent
                 slides={Data}
-                settings={ThirdPanelSetting}
+                settings={FifthPanelSetting}
                 width="100%"
-                height='clamp(3rem, 18vw, 15rem)'
+                height="clamp(20rem, 35vw, 35rem)"
                 slider_width="100%"
                 slider_height="100%"
+                radius='10px'
             />
         </div>
     )
 }
 
-export default ThirdPanel
+export default FifthPanel

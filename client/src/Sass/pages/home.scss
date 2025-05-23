@@ -8,4 +8,13 @@
   }
   & .row3 {
   }
+  & .row4 {
+    background: map.get($color, _gray_subtle_3);
+    height: fit-content;
+    border-radius: 30px;
+  }
+  & .row5 {
+  }
+  & .row6 {
+  }
 }

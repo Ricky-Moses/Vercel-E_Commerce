@@ -1,10 +1,9 @@
-import { useDispatch, useSelector } from "react-redux"
-import SliderComponent from "../../Components/SlideComponent"
 import { useEffect, useMemo } from "react"
+import { useDispatch, useSelector } from "react-redux"
 import { fetchAdvertisement } from "../../Context/Ad"
+import SliderComponent from "../../Components/SlideComponent"
 
-
-const ThirdPanel = () => {
+const SixthPanel = () => {
     const dispatch = useDispatch()
     const { data } = useSelector(state => state.ads)
 
@@ -12,26 +11,19 @@ const ThirdPanel = () => {
         dispatch(fetchAdvertisement())
     }, [dispatch])
 
-    const Data = useMemo(() => data[2] || [], [data])
+    const Data = useMemo(() => data[5] || [], [data])
 
-    const ThirdPanelSetting = useMemo(() => ({
+    const SixthPanelSetting = useMemo(() => ({
         slidesToShow: 6,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         dots: false,
         infinite: Data?.images?.length > 1,
         speed: 500,
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 3000,
-        rtl: true,
+        autoplaySpeed: 2000,
+        rtl: false,
         responsive: [
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 2
-                }
-            },
             {
                 breakpoint: 576,
                 settings: {
@@ -42,17 +34,22 @@ const ThirdPanel = () => {
         ],
     }), [Data?.images?.length])
     return (
-        <div className="row3">
+        <div className="row6 flex flex-col gap-2">
+            <div className="text-center sm:text-start lg:!ps-5">
+                <h1 className="text-[20px] lg:text-2xl font-bold">Lingerie & Accessories</h1>
+                <h2 className="text-[14px] sm:text-[16px] font-bold">Handpicked Styles For You</h2>
+            </div>
             <SliderComponent
                 slides={Data}
-                settings={ThirdPanelSetting}
-                width="100%"
-                height='clamp(3rem, 18vw, 15rem)'
+                settings={SixthPanelSetting}
+                width="95%"
+                height="clamp(5rem, 12vw, 10rem)"
                 slider_width="100%"
                 slider_height="100%"
+                radius="1%"
             />
         </div>
     )
 }
 
-export default ThirdPanel
+export default SixthPanel

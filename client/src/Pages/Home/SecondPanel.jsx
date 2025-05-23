@@ -28,7 +28,7 @@ const SecondPanel = () => {
 
         ],
     }), [Data?.images?.length])
-    console.log(SecondPanelSetting);
+    // console.log(SecondPanelSetting);
     return (
         <div className="row2">
             <SliderComponent
