@@ -4,6 +4,8 @@ import ThirdPanel from "./Home/ThirdPanel"
 import FourthPanel from "./Home/FourthPanel"
 import FifthPanel from "./Home/FifthPanel"
 import SixthPanel from "./Home/SixthPanel"
+import SeventhPanel from "./Home/SeventhPanel"
+import EightPanel from "./Home/EightPanel"
 
 const Home = () => {
   return (
@@ -25,6 +27,12 @@ const Home = () => {
       </div>
       <div className="">
         <SixthPanel />
+      </div>
+      <div className="">
+        <SeventhPanel />
+      </div>
+      <div className="">
+        <EightPanel />
       </div>
     </div>
   )
