@@ -1,30 +1,38 @@
 @use "../base/index.scss" as *;
 @use "sass:map";
 
-.slick-slider {
-  width: 100%;
-  height: 100%;
-
-  // Slick list (viewport for slides)
-  & .slick-list {
+.slick-slider{
+  & img{
     width: 100%;
     height: 100%;
-  }
-
-  // Slick track (container for all slides)
-  & .slick-track {
-    height: 100%;
-    display: flex;
-    gap: 10px;
-  }
-
-  // Individual slide
-  & .slick-slide {
-    height: 100%;
-
-    & div {
-      width: 100%;
-      height: 100%;
-    }
+    object-fit:fill;
   }
 }
+
+// .slick-slider {
+//   width: 100%;
+//   height: 100%;
+
+//   // Slick list (viewport for slides)
+//   & .slick-list {
+//     width: 100%;
+//     height: 100%;
+//   }
+
+//   // Slick track (container for all slides)
+//   & .slick-track {
+//     height: 100%;
+//     display: flex;
+//     gap: 10px;
+//   }
+
+//   // Individual slide
+//   & .slick-slide {
+//     height: 100%;
+
+//     & div {
+//       width: 100%;
+//       height: 100%;
+//     }
+//   }
+// }

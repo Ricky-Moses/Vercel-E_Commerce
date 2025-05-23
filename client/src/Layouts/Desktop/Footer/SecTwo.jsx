@@ -55,8 +55,8 @@ const SecTwo = () => {
                     <div key={i} className="flex flex-col gap-2 text-white">
                         <div className="text-2xl font-extrabold">{items.label}</div>
                         <div className="flex flex-col gap-2">
-                            {items.list.map((list) => (
-                                <div className="">{list.name}</div>
+                            {items.list.map((list, i) => (
+                                <div key={i} className="">{list.name}</div>
                             ))}
                         </div>
                     </div>

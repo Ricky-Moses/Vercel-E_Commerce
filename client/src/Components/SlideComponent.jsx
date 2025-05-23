@@ -5,11 +5,11 @@ import { fetchAdvertisement } from "../Context/Ad";
 
 
 const defaultSettings = {
+    slidesToShow: 1,
+    slidesToScroll: 1,
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
     arrows: true,
     responsive: [
 
@@ -21,9 +21,8 @@ const SliderComponent = ({
     settings = defaultSettings,
     width = "100%",
     height = "300px",
-    display = "flex",
-    alignItems = "center",
-    justifyContent = "center",
+    slider_width = "60%",
+    slider_height = "60%"
 }) => {
 
     const dispatch = useDispatch()
@@ -34,23 +33,27 @@ const SliderComponent = ({
     }, [dispatch])
 
     const sliderSettings = { ...defaultSettings, ...settings };
+    console.log(sliderSettings);
+    console.log('Height: ', height);
 
 
     return (
-        <div className="" style={{ width: '100dvw', display, alignItems, justifyContent }}>
+        <div className="" style={{ width: '100dvw' }}>
             <div className="" style={{ width, height }}>
                 <Slider {...sliderSettings}>
-                    {loading ? (
-                        <div className="skeleton w-full h-full"></div>
-                    ) : error ? (
-                        <div className="skeleton w-full h-full bg-base-300"></div>
-                    ) : (
-                        slides?.images?.map((pic) => (
-                            <div key={pic?._id} className="max-w-full h-full outline-0">
-                                <img className="w-full h-full object-contain" src={pic?.img} />
-                            </div>
-                        ))
-                    )}
+                    <div>
+                        {loading ? (
+                            <div className=""></div>
+                        ) : error ? (
+                            <div className=""></div>
+                        ) : (
+                            slides?.images?.map((pic, i) => (
+                                <div key={i} className="" style={{ width: slider_width, height: slider_height }}>
+                                    <img src={pic?.img} alt="" />
+                                </div>
+                            ))
+                        )}
+                    </div>
                 </Slider>
             </div>
         </div>
