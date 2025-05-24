@@ -8,7 +8,7 @@ const Footer = () => {
 
   useEffect(() => {
     const handleSize = () => {
-      setDevice(window.innerWidth < 922)
+      setDevice(window.innerWidth < 992)
     }
 
     window.addEventListener('resize', handleSize)

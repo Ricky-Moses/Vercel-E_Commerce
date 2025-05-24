@@ -7,7 +7,7 @@ const SecThree = () => {
     <div className="sec-3 flex items-center justify-center">
         <div className="w-5/6 h-5/6 flex items-center justify-around">
             <div className="flex items-center gap-3">
-                <div className="!p-4 bg-[#F45589] text-white text-3xl rounded-full">
+                <div className="!p-4 bg-[#6fe6fc] text-white text-3xl rounded-full">
                     <GiSurferVan />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -20,7 +20,7 @@ const SecThree = () => {
                 </div>
             </div>
             <div className="flex items-center gap-3">
-                <div className="!p-4 bg-[#F45589] text-white text-3xl rounded-full">
+                <div className="!p-4 bg-[#6fe6fc] text-white text-3xl rounded-full">
                     <SiTicktick />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -33,7 +33,7 @@ const SecThree = () => {
                 </div>
             </div>
             <div className="flex items-center gap-3">
-                <div className="!p-4 bg-[#F45589] text-white text-3xl rounded-full">
+                <div className="!p-4 bg-[#6fe6fc] text-white text-3xl rounded-full">
                     <PiMedalBold />
                 </div>
                 <div className="flex flex-col gap-2">
@@ -46,7 +46,7 @@ const SecThree = () => {
                 </div>
             </div>
             <div className="flex items-center gap-3">
-                <div className="!p-4 bg-[#F45589] text-white text-3xl rounded-full">
+                <div className="!p-4 bg-[#6fe6fc] text-white text-3xl rounded-full">
                     <IoPricetagsSharp />
                 </div>
                 <div className="flex flex-col gap-2">

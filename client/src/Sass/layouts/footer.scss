@@ -20,7 +20,7 @@
     & .sec-4 {
       width: 100vw;
       @include clamp(height, 4rem, 10vw, 6rem);
-      background: map.get($color, summer_pink);
+      background: map.get($color, summer);
     }
     & .sec-5 {
       width: 100vw;
@@ -30,7 +30,11 @@
 
   & .mobile-footer {
     & .sec-2{
-        @include clamp(height, 15rem, 30vw, 25rem);
+        @include clamp(height, 10rem, 25vw, 20rem);
+    }
+    & .sec-3{
+      @include clamp(height, 10rem, 20vw, 15rem);
+      background: map.get($color, summer);
     }
   }
 }
