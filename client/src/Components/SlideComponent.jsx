@@ -66,7 +66,13 @@ const SliderComponent = ({
                     ) : (
                         slides?.images?.map((pic, i) => (
                             <div key={i} className="outline-0 cursor-pointer" style={{ width: slider_width, height: slider_height,  }}>
-                                <img src={pic?.img} alt={pic?.img} style={{borderRadius: radius}} />
+                                {pic?.img && (<img src={pic?.img} alt={pic?.img} style={{borderRadius: radius}} />)}
+                                {pic?.description && (<span className="line-clamp-2 text-black text-[14px]">{pic?.description}</span>)}
+                                {pic?.price && (<div className="flex items-center gap-2">
+                                    {pic?.price && (<span className="">{pic?.price}</span>)}
+                                    {pic?.mrp && (<span className="text-[13px] line-through">{pic?.mrp}</span>)}
+                                    {pic?.discount && (<span className="text-blue-400">{pic?.discount}</span>)}
+                                </div>)}
                             </div>
                         ))
                     )}

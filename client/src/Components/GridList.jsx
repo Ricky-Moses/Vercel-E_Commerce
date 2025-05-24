@@ -38,7 +38,7 @@ const AdList = ({
             <div key={idx} className="flex flex-col">
               {pic?.img && (<img className="w-full h-full object-contain" src={pic?.img} alt={pic?.img} />)}
               {pic?.offer && (<h1 className="font-bold">{pic?.offer}</h1>)}
-              {pic?.description && (<h1 className="">{pic?.description}</h1>)}
+              {pic?.description && (<h1 className="line-clamp-2">{pic?.description}</h1>)}
             </div>
           ))}
         </>
