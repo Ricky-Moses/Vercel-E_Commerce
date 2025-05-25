@@ -14,7 +14,7 @@
                 "subMenu": []
             },
             {
-                "label": "Luxe",
+                "label": "Ruxe",
                 "link": "/",
                 "title": ["Makeup", "Skin","Fragrance", "Hair", "Bath & Body", "Gifts", "Trending Now", "New Launches", "Minis"],
                 "subMenu":[
@@ -23,9 +23,13 @@
                         "link": "/",
                         "items": [
                             {
-                                "subTitle": "Makeup Collection Face",
+                                "subTitle": "Makeup Collection",
                                 "link": "/",
                                 "subItems": [
+                                    {
+                                        "itemsName": "Face",
+                                        "link": "/"
+                                    },
                                     {
                                         "itemsName": "Foundation",
                                         "link": "/"
